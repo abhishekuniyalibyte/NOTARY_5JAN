@@ -1,0 +1,92 @@
+# AI-Powered Uruguayan Notarial Certificate Automation System
+# Requirements File
+
+# ============================================================================
+# CORE DEPENDENCIES (Phases 1-3)
+# ============================================================================
+# Phases 1-3 use only Python standard library - no external dependencies required
+
+
+# ============================================================================
+# PHASE 4: TEXT EXTRACTION & STRUCTURING
+# ============================================================================
+
+# PDF Processing (choose one or both)
+PyPDF2>=3.0.0              # PDF text extraction (simpler, pure Python)
+# pdfplumber>=0.10.0       # Alternative: more robust PDF extraction
+
+# OCR for Scanned Documents
+pytesseract>=0.3.10        # Python wrapper for Tesseract OCR
+Pillow>=10.0.0             # Image processing for OCR
+
+# Note: Tesseract OCR engine must be installed separately:
+# Ubuntu/Debian: sudo apt-get install tesseract-ocr tesseract-ocr-spa
+# macOS: brew install tesseract tesseract-lang
+# Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+
+# DOCX Processing
+python-docx>=1.1.0         # Microsoft Word document processing
+
+# PDF to Image conversion (for scanned PDFs)
+pdf2image>=1.16.3          # Convert PDF pages to images for OCR
+# Requires: sudo apt-get install poppler-utils (Linux) or brew install poppler (macOS)
+
+
+# ============================================================================
+# PHASE 5-6: VALIDATION & GAP DETECTION
+# ============================================================================
+# These phases use only Python standard library - no external dependencies
+
+
+# ============================================================================
+# DEVELOPMENT & TESTING
+# ============================================================================
+
+# Testing Framework
+pytest>=7.4.0              # Testing framework
+pytest-cov>=4.1.0          # Coverage reporting for pytest
+
+# Code Quality (optional)
+# black>=23.0.0            # Code formatter
+# flake8>=6.0.0            # Linting
+# mypy>=1.5.0              # Type checking
+
+
+# ============================================================================
+# FUTURE PHASES (Phases 7-11) - NOT YET REQUIRED
+# ============================================================================
+
+# Phase 7: Data Update Attempt
+# requests>=2.31.0         # HTTP requests for API calls
+# beautifulsoup4>=4.12.0   # Web scraping
+
+# Phase 9: Certificate Generation
+# reportlab>=4.0.0         # PDF generation
+# jinja2>=3.1.2            # Template engine
+
+# Phase 10: Learning & Feedback
+# scikit-learn>=1.3.0      # Machine learning (optional)
+
+# Google Drive Integration (Future)
+# google-auth>=2.23.0
+# google-auth-oauthlib>=1.1.0
+# google-auth-httplib2>=0.1.1
+# google-api-python-client>=2.100.0
+
+
+# ============================================================================
+# NOTES
+# ============================================================================
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Install only core dependencies (Phases 1-6):
+#   pip install pytest pytest-cov
+#
+# Install Phase 4 dependencies:
+#   pip install PyPDF2 pytesseract Pillow python-docx pdf2image
+#
+# For minimal installation (Phases 1-3 only):
+#   No installation needed - uses Python standard library only
+#

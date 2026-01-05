@@ -1,0 +1,19 @@
+# Files Description
+
+- `client_requirements.txt`: Client’s problem statement, legal workflow expectations, and clarifications (certificate types, handling “ERROR” files, OCR accent fixes, expirable docs, template flexibility); anchors the functional scope for all phases.
+- `README.md`: High-level overview of the notarial automation system, current implementation status (Phases 1-6 done), quickstart commands, and how to run examples/tests.
+- `workflow.md`: Detailed multi-phase process description from intent capture through certificate generation, explaining actors, data flow, and legal checkpoints (Articles 248–255 and cross-references).
+- `requirements.txt`: Dependency plan—standard library for Phases 1-3, optional extraction/OCR libraries for Phase 4, pytest tooling, and future placeholders (Drive integration, templating, ML).
+- `src/__init__.py`: Marks `src` as a package for imports across the phased modules.
+- `src/phase1_certificate_intent.py`: Captures the notary’s intent (certificate type, purpose/destination, subject). Provides enums for supported certificate types/purposes, a `CertificateIntent` dataclass with JSON helpers, human-readable summaries, and both interactive CLI and parameter-based capture—fulfilling the “notary specifies the certificate” requirement.
+- `src/phase2_legal_requirements.py`: Rules engine that maps intents to mandatory articles (248–255 plus cross-refs), required elements, document checklists, and institution-specific rules (BPS, Abitab, Zona Franca, RUPE, etc.). Produces structured `LegalRequirements` outputs in JSON/summary form so validation is auditable rather than heuristic.
+- `src/phase3_document_intake.py`: Ingests and indexes uploaded files (PDF/DOCX/images), detects probable document types from filenames, flags likely scanned items, and tracks coverage vs. required documents. Supports directory scanning for client folders and serializes collections for downstream extraction.
+- `src/phase4_text_extraction.py`: Extracts and normalizes text (fixes OCR accent issues like “resoluciÃ³n” → “resolución”), includes placeholder extractors for PDF/DOCX/OCR, and regex-based data extraction (RUT, CI, registry numbers, dates, emails, company names). Wraps results in structured objects with summaries for validation use.
+- `src/phase5_legal_validation.py`: Validates extracted data against legal requirements—checks document presence, expiry expectations, required elements, and cross-document consistency. Produces a `ValidationMatrix` with issue severities to decide if a certificate can be issued.
+- `src/phase6_gap_detection.py`: Converts validation output into a gap/action report: missing/expired docs, missing data, inconsistencies, and format checks. Builds per-document reports and prioritized action plans indicating what must be fixed before issuance.
+- `tests/test_phase1.py` … `tests/test_phase6.py`: Unit tests for each phase verifying enum parsing, dataclass serialization, rule resolution, document ingestion heuristics, text normalization/extraction, validation logic, and gap reporting. Support regression checks against client scenarios (e.g., GIRTEC/NETKLA/SATERIX cases).
+- `Notaria_client_data/`: Client-provided corpus of customer folders (each folder = one person/company). Contains historical certificates and supporting documents; filenames prefixed with `ERROR` indicate drafts flagged by the notary. Used as real-world examples for ingestion/normalization.
+- `notary_5jan.zip`: Archive of provided client data (not expanded here); likely mirrors or backs up `Notaria_client_data/`.
+- `tests/__init__.py`: Marks the tests directory as a package for discovery.
+- `.gitignore`: Standard ignores for Python/venv/artifacts (keeps local environments and bytecode out of version control).
+- `venv/`: Local virtual environment for dependencies; not part of the deployable code.
