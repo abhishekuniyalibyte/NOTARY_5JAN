@@ -161,3 +161,33 @@ Production ready outputs
 The system will generate consistent, legally compliant certificates ready for real use. The solution will be prepared for future frontend or mobile integration.
 
 ---
+                        5-JAN-2026 CLIENT REPONSE on create_certificate_summary.py file json output 
+
+[05/01, 5:16 pm] Himanshi TL Office: corte.doc"
+      ]
+    },
+    "firma": {
+      "count": 28,
+      "purposes": {
+        "zona_franca": 2,
+        "bcu": 2
+      },
+      "attributes": [],
+      "examples": [
+        "AMURA ADVISORS INTERNATIONAL SA. CertificaciÃ³n firma Walter Albanell, control SA, para contrato Zona Franca.doc",
+        "ALBANELL BOCAGE Walter. CertificaciÃ³n FIRMA y Estado de Responsabilidad, para BSE.doc",
+        "ALBANELL OLARREAGA Walter Federico. CertificaciÃ³n FIRMA y Estado de Responsabilidad, para BSE..doc",
+        "CertificacioÌn FIRMA de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.doc",
+        "CertificacioÌn firma digital de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.doc"
+      ]
+    },
+[05/01, 5:16 pm] Himanshi TL Office: Purpose is wrong , it should be for BSE , abitab and zona franca
+[05/01, 5:16 pm] Himanshi TL Office: 2 abitab, 2 BSE and 1 zona franca
+[05/01, 5:16 pm] Himanshi TL Office: In the example section
+[05/01, 5:16 pm] Himanshi TL Office: Those are DGI certificates but not notary ones
+[05/01, 5:16 pm] Himanshi TL Office: Remember , The ones with ERROR word are certificates but with wrong data
+[05/01, 5:16 pm] Himanshi TL Office: You need to analyse the content too , not only the file name
+[05/01, 5:16 pm] Himanshi TL Office: We can have a meeting on Wednesday 7 or Thursday 8 with the notary tomorrow
+
+---
+

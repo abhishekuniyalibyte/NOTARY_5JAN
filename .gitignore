@@ -1,3 +1,5 @@
 Notaria_client_data
 .env
 venv
+client_suggestion
+.claude
