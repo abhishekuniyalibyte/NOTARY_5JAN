@@ -1,0 +1,58 @@
+Pain
+Creation of notarial certificates requires multiple processes depending on the certificate type, each with its own specific steps. The complexity varies according to the case, for example expired BPS certificates, among others.
+Process
+When document X is uploaded, the agent must be able to read it and interpret Uruguayan law to determine whether all legal requirements are met. Based on these requirements, it must verify the validity of the information and whether it is up to date.
+A flow:
+• The agent already has all the relevant information loaded into its knowledge base regarding how notaries must operate and how documents must be delivered. This includes the Organic Law and the Notarial Regulations. https://www.aeu.org.uy/aucdocumento.aspx?996,13853
+• The notary specifies the certificate that needs to be created (its type and purpose, such as certifying signatures or legal situations).
+• The notary uploads the available documentation needed to create the certificate, either via Drive integration or direct upload.
+• The agent compares the uploaded documentation with its knowledge base to identify missing documents, outdated documents, or documents containing incorrect information.
+• The notary then chooses between uploading the updated documents or instructing the agent to attempt to update them using APIs or public/private websites that may contain updated information.
+• The agent attempts to update the information and informs whether the update was successful or not, marking in red the items that were found and those that were changed.
+• The agent analyses all the information uploaded by the notary.
+• Once all the required elements are validated and corrected, the agent generates the certificate using a predefined template provided by the notary.
+• The notary confirms whether everything is correct so the agent can learn or adjust its output if the notary indicates that something is not correct (for example, wording or template structure). This may involve updating the template or improving its programming.
+Example
+If the notary wants to certify a signature, the agent must be able to reference Article 250, which refers to Article 130, and verify all required documents according to those articles, as well as everything contained in Article 255. All notarial certificates must comply with Articles 248 to 255, including cross-references.
+It is important that the entire process can be done from a mobile phone (this will be another stage - frontend development)
+Title examination
+When a person wants to buy a property, the notary must verify that the seller is the legitimate owner and that the property has no encumbrances. This requires registry information, municipal records, and data from public agencies. This is based on notarial requirements outlined here: https://publicaciones.fder.edu.uy/index.php/me/article/view/128/121
+
+
+above are the requirements and the reply to how we are going to do ws this:
+
+
+Below is my response(HS):
+
+This absolutely helps clarify the scope. I’ve reviewed the full flow carefully, and yes, I’m fully capable of developing this agent end-to-end.
+Here is exactly how I would approach it:
+1. Authentication + Google Drive Integration
+I’ll integrate your existing login (email/Google OAuth) and connect each notary’s Google Drive so the agent can securely read their past documents (PDF, DOCX, JPG). OCR will be applied where needed.
+2. Legal Knowledge Base (Spanish-only prompts as requested)
+I will load all legal content from the provided URL, especially the rules from “Certificates” and Article 255, into a structured retrieval-augmented knowledge base so the agent can always apply the correct legal requirements.
+3. Template & Style Learning
+Each notary has a personal writing style, so the agent will scan their Drive for previous certificates, extract their formatting, tone, and structure, and use those as references for future certificates. If the notary uploads custom templates for each institution (BPS, MSP, Abitab, etc.), the agent will follow them strictly.
+4. Intelligent Search + Data Extraction
+When the notary asks for a certificate (example: “Quiero crear un certificado de personería de EMARLAN SOCIEDAD ANÓNIMA para Abitab”), the agent will:
+– Search Drive for EMARLAN documents
+– Extract required legal fields
+– Detect missing, outdated, or unclear items
+– Present all extracted information to the notary for correction or confirmation
+5. Institution-Specific Requirements
+If the certificate is “para BPS”, “para MSP”, etc., the agent will either:
+– Use the uploaded templates, or
+– (Later phase) search the internet for official guidelines
+It will also validate things like expiration dates or institution-specific formatting rules.
+6. Certificate Generation + Error Checking
+The agent will draft the certificate fully in Spanish using the chosen template and legal rules, highlight any problems (expired data, mismatches, unreadable names), and ask the notary to review or correct them.
+7. Final Output
+Once the notary approves, the agent will generate the final document (PDF/DOCX) ready for download. A future roadmap can include automatic upload to the governmental portal.
+
+
+
+Client Response after giving the folders:
+Each folder is a costumer ( company or a person ), if you see the word ERROR at the beginning of a certificate is because the notary saw issues with the data / conditions
+And you can see a lot of examples of certificates created per customer
+Cool! Check the docs and let me know
+Everything is in Spanish
+ 

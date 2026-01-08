@@ -1,0 +1,29 @@
+{
+  "document_type": "ACTA DE ASAMBLEA GENERAL EXTRAORDINARIA",
+  "rut": null,
+  "denominacion": "GIRTEC S.A.",
+  "constancia_number": "10216/6",
+  "fecha": "11 de octubre 2012",
+  "domicilio_fiscal": "Br. España 2282",
+  "tipo_contribuyente": null,
+  "estado": null,
+  "emision": null,
+  "vencimiento": null,
+  "other_fields": {
+    "asamblea": "Asamblea General Extraordinaria",
+    "hora": "11 hs.",
+    "ciudad": "Montevideo",
+    "resolucion_directorio": "10 de octubre de 2012",
+    "accionistas_presentes": "Eduardo, Gabriel y Daniel Bomio",
+    "porcentaje_capital_integrado": "100%",
+    "orden_del_dia": [
+      "Designacion del Presidente y Secretario de la Asamblea",
+      "Consideracion de las modificaciones legales impuestas por la Ley N° 18930, Decreto Reglamentario 247/2012 y Comunicación del BCU 2012/144",
+      "Designacion de dos accionistas para firmar el acta"
+    ],
+    "presidente_asamblea": "Eduardo Victor Bomio Claveria",
+    "secretario_asamblea": "Gabriel Bomio",
+    "modificacion_estatutaria": "Ampararse en lo dispuesto por el art. 17 de la Ley 18.930",
+    "representantes_legales": "Maria Cristina Olaso Jung y/o Diego Puceiro Pan"
+  }
+}

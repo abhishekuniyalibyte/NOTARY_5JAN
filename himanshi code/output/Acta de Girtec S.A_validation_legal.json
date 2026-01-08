@@ -1,0 +1,42 @@
+{
+  "certificate_type": "acta_asamblea",
+  "facts": {
+    "individualizacion_otorgantes": true,
+    "identificacion_otorgantes": true,
+    "identificacion_documento_vigente": false,
+    "lectura_del_documento": false,
+    "firma_en_presencia": false,
+    "requerimiento_expreso": false,
+    "objeto_del_certificado": true,
+    "documento_fuente": true,
+    "exhibicion_o_compulsa": false,
+    "conocimiento_personal_escribano": false,
+    "ratificacion_contenido_y_firma": false,
+    "suscripcion_y_autorizacion": true,
+    "existencia_persona_juridica": true,
+    "estatuto_vigente": true,
+    "designacion_autoridades": true,
+    "cargo_vigente": true,
+    "facultades_representacion_validas": true,
+    "cumplimiento_ley_17904": false,
+    "cumplimiento_ley_18930": true,
+    "beneficiario_final_declarado": false,
+    "documentacion_verificada_por_escribano": false,
+    "testigos_idoneos_articulo_145": false
+  },
+  "conditions": {
+    "otorgante_no_sabe_o_no_puede_firmar": false,
+    "testigos_instrumentales_presentes": false,
+    "impresion_digital_realizada": false,
+    "documento_tiene_tachaduras": false,
+    "requiere_traduccion": false
+  },
+  "global_fields": {
+    "nombre_solicitante": false,
+    "constancia_cumplimiento_legal": true,
+    "destinatario": false,
+    "lugar_expedicion": true,
+    "fecha_expedicion": true,
+    "firma_y_sello_escribano": true
+  }
+}

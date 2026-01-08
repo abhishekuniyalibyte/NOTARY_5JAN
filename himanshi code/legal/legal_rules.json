@@ -1,0 +1,163 @@
+{
+  "certificado_hechos": {
+    "base_legal": {
+      "articulo_principal": 248,
+      "literal": "a"
+    },
+    "requisitos": [
+      {
+        "id": "certificado_hechos.objeto_del_certificado",
+        "descripcion": "Acto, hecho o situación jurídica objeto del certificado",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 249, "literal": "a" }
+      },
+      {
+        "id": "certificado_hechos.documento_fuente",
+        "descripcion": "Documento público o privado del cual resulta el acto o hecho certificado",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 249, "literal": "b" }
+      },
+      {
+        "id": "certificado_hechos.exhibicion_o_compulsa",
+        "descripcion": "Exhibición del documento o compulsa personal del escribano",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 249, "literal": "c" }
+      },
+      {
+        "id": "certificado_hechos.conocimiento_personal_escribano",
+        "descripcion": "Constancia de conocimiento personal del escribano, cuando corresponda",
+        "obligatorio": false,
+        "fuente_legal": { "articulo": 249 }
+      }
+    ]
+  },
+
+  "certificado_firmas": {
+    "base_legal": {
+      "articulo_principal": 248,
+      "literal": "b"
+    },
+    "requisitos": [
+      {
+        "id": "certificado_firmas.individualizacion_otorgantes",
+        "descripcion": "Individualización de los otorgantes",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 250, "literal": "a",
+      "referencia_cruzada": { "articulo": 130 } }
+      },
+      {
+        "id": "certificado_firmas.identificacion_otorgantes",
+        "descripcion": "Identificación por conocimiento personal o documento oficial",
+        "obligatorio": true,
+        "puede_vencer": true,
+        "fuente_legal": { "articulo": 250, "literal": "b" }
+      },
+      {
+        "id": "certificado_firmas.lectura_documento",
+        "descripcion": "Lectura del documento por el escribano y recabación del otorgamiento",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 250, "literal": "c" }
+      },
+      {
+        "id": "certificado_firmas.firma_en_presencia",
+        "descripcion": "Firma del documento en presencia del escribano",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 250, "literal": "d" }
+      },
+      {
+        "id": "certificado_firmas.requerimiento_expreso",
+        "descripcion": "Requerimiento expreso de la intervención notarial",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 253 }
+      }
+    ],
+    "requisitos_condicionales": [
+      {
+        "condicion": "otorgante_no_sabe_o_no_puede_firmar",
+        "requisitos": [
+          {
+            "id": "certificado_firmas.testigos_instrumentales",
+            "descripcion": "Intervención de dos testigos instrumentales",
+            "obligatorio": true,
+            "fuente_legal": { "articulo": 252 }
+          },
+          {
+            "id": "certificado_firmas.impresion_digital",
+            "descripcion": "Impresión digital del otorgante",
+            "obligatorio": false,
+            "fuente_legal": { "articulo": 252 }
+          }
+        ]
+      }
+    ]
+  },
+
+  "certificado_ratificacion": {
+    "base_legal": {
+      "articulo_principal": 248,
+      "literal": "c"
+    },
+    "requisitos": [
+      {
+        "id": "certificado_ratificacion.individualizacion_otorgantes",
+        "descripcion": "Individualización de los otorgantes",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 251, "literal": "a" }
+      },
+      {
+        "id": "certificado_ratificacion.identificacion_otorgantes",
+        "descripcion": "Identificación por documento oficial o conocimiento personal",
+        "obligatorio": true,
+        "puede_vencer": true,
+        "fuente_legal": { "articulo": 251, "literal": "b" }
+      },
+      {
+        "id": "certificado_ratificacion.ratificacion_contenido_y_firma",
+        "descripcion": "Ratificación del contenido y reconocimiento de firmas",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 251, "literal": "c" }
+      },
+      {
+        "id": "certificado_ratificacion.suscripcion_autorizacion",
+        "descripcion": "Suscripción del certificado y autorización del escribano",
+        "obligatorio": true,
+        "fuente_legal": { "articulo": 251, "literal": "d" }
+      }
+    ]
+  },
+
+  "reglas_testigos": {
+    "descripcion": "Reglas aplicables a testigos y sujetos auxiliares",
+    "fuente_legal": { "articulo": 254 }
+  },
+
+  "requisitos_globales_certificado": {
+    "base_legal": { "articulo": 255 },
+    "campos": [
+      {
+        "id": "global.nombre_solicitante",
+        "descripcion": "Nombre y apellido de la persona solicitante"
+      },
+      {
+        "id": "global.constancia_cumplimiento_legal",
+        "descripcion": "Constancia del cumplimiento de los requisitos legales"
+      },
+      {
+        "id": "global.destinatario",
+        "descripcion": "Destinatario del certificado"
+      },
+      {
+        "id": "global.lugar_expedicion",
+        "descripcion": "Lugar de expedición"
+      },
+      {
+        "id": "global.fecha_expedicion",
+        "descripcion": "Fecha de expedición"
+      },
+      {
+        "id": "global.firma_sello_escribano",
+        "descripcion": "Firma, rúbrica y sello del escribano autorizante"
+      }
+    ]
+  }
+}
