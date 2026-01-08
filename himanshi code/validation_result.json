@@ -1,0 +1,36 @@
+{
+  "certificate_type": "certificado_firmas",
+  "overall_status": "RED",
+  "can_proceed_to_draft": false,
+
+  "checked_requisitos": [
+    "certificado_firmas.individualizacion_otorgantes",
+    "certificado_firmas.identificacion_otorgantes",
+    "certificado_firmas.lectura_documento",
+    "certificado_firmas.firma_en_presencia",
+    "certificado_firmas.requerimiento_expreso"
+  ],
+
+  "issues": [
+    {
+      "rule_id": "certificado_firmas.identificacion_otorgantes",
+      "severity": "ERROR",
+      "message": "Documento de identidad vencido",
+      "fuente_legal": {
+        "articulo": 250,
+        "literal": "b"
+      }
+    }
+  ],
+
+  "warnings": [],
+
+  "missing_items": [],
+
+  "legal_basis": {
+    "articulo_principal": 248,
+    "literal": "b"
+  },
+
+  "timestamp": "2025-01-10T14:30:00Z"
+}

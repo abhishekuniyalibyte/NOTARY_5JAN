@@ -1,0 +1,71 @@
+{
+  "Art.248": {
+    "requires": []
+  },
+
+  "Art.249": {
+    "requires": []
+  },
+
+  "Art.250": {
+    "requires": [
+      "Art.130",
+      "Art.150-159",
+      "Art.162-166"
+    ]
+  },
+
+  "Art.251": {
+    "requires": [
+      "Art.130",
+      "Art.150-159",
+      "Art.162-166"
+    ]
+  },
+
+  "Art.252": {
+    "requires": [
+      "Art.250",
+      "Art.145",
+      "Art.162-166"
+    ]
+  },
+
+  "Art.253": {
+    "requires": []
+  },
+
+  "Art.254": {
+    "requires": [
+      "Art.130",
+      "Art.145"
+    ]
+  },
+
+  "Art.255": {
+    "requires": [
+      "Art.248",
+      "Art.249",
+      "Art.250",
+      "Art.251",
+      "Art.252",
+      "Art.254"
+    ]
+  },
+
+  "Art.130": {
+    "requires": []
+  },
+
+  "Art.145": {
+    "requires": []
+  },
+
+  "Art.150-159": {
+    "requires": []
+  },
+
+  "Art.162-166": {
+    "requires": []
+  }
+}

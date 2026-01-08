@@ -1,0 +1,4786 @@
+{
+  "identified_certificate_types": {
+    "otros": {
+      "count": 103,
+      "purposes": {},
+      "attributes": [
+        "poderes",
+        "leyes",
+        "poder"
+      ],
+      "examples": [
+        "025 Certificado 351.docx",
+        "Certif. notarial, control completo SA, estudio Guyer.pdf",
+        "ERROR 025 Certificado 351.pages",
+        "025 certificado para Abitab.pages",
+        "ACRISOUND SA. Certificacion Federico Schindler, para suprema corte.doc"
+      ]
+    },
+    "firma": {
+      "count": 28,
+      "purposes": {
+        "zona_franca": 2,
+        "bcu": 2
+      },
+      "attributes": [],
+      "examples": [
+        "AMURA ADVISORS INTERNATIONAL SA. Certificación firma Walter Albanell, control SA, para contrato Zona Franca.doc",
+        "ALBANELL BOCAGE Walter. Certificación FIRMA y Estado de Responsabilidad, para BSE.doc",
+        "ALBANELL OLARREAGA Walter Federico. Certificación FIRMA y Estado de Responsabilidad, para BSE..doc",
+        "Certificación FIRMA de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.doc",
+        "Certificación firma digital de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.doc"
+      ]
+    },
+    "representacion_representacion": {
+      "count": 8,
+      "purposes": {
+        "comercio": 2
+      },
+      "attributes": [
+        "leyes",
+        "poder"
+      ],
+      "examples": [
+        "Certif. notarial 2022-04 vigencia, representación embargo.pdf",
+        "Certificado vigencia y representación por poder de Federico Scheindler, legalizado.2.pdf",
+        "Certificado vigencia y representación por poder de Federico Scheindler, legalizado.pdf",
+        "GIRTEC S.A., CERTIFICACION PERSONERA, REPRESENTACION, PODER CAROLINA Y LEYES.doc",
+        "Certificacion representación y leyes.pdf"
+      ]
+    },
+    "dgi": {
+      "count": 3,
+      "purposes": {
+        "dgi": 3
+      },
+      "attributes": [],
+      "examples": [
+        "Certif.Anual. DGI.pdf",
+        "CERTIFICADO DGI FRAINEL.pdf",
+        "certificado NETKLA TRADING - DGI.doc"
+      ]
+    },
+    "personeria_representacion_representacion": {
+      "count": 61,
+      "purposes": {
+        "bps": 2,
+        "dgi": 4,
+        "bcu": 1,
+        "comercio": 1
+      },
+      "attributes": [
+        "poderes",
+        "leyes",
+        "domicilio",
+        "poder",
+        "giro",
+        "domicilios",
+        "objeto"
+      ],
+      "examples": [
+        "Certificación de personería y representación AMURA ADVISORS INTERNATIONAL S.A. - 2023.docx",
+        "ACRISOUND SA. Certificacion personeria, representación y leyes, complemento poder Brasil.doc",
+        "ACRISOUND SA. Certificacion personeria, representación y leyes.doc",
+        "ACRISOUND SA. Certificacion personeria, representación, poder general y leyes.doc",
+        "Certificacion personeria, representacion y leyes. Legalizada y Apostillada..pdf"
+      ]
+    },
+    "bps": {
+      "count": 8,
+      "purposes": {
+        "bps": 8,
+        "dgi": 2
+      },
+      "attributes": [],
+      "examples": [
+        "Certificado comun BPS.pdf",
+        "Formulario 0352 ACRISOUND SA Certificacion cambio Directorio, para BPS-DGI.pdf",
+        "CERTIFICADO BPS GIRTEC VTO 13 01 2021.pdf",
+        "AMPLIACION CERTIFICACION. PARA BPS-DGI.docx",
+        "Constancia Certif.Comun BPS.pdf"
+      ]
+    },
+    "firma_personeria_representacion_representacion": {
+      "count": 72,
+      "purposes": {
+        "bcu": 6,
+        "bps": 5,
+        "dgi": 6,
+        "zona_franca": 2,
+        "comercio": 1
+      },
+      "attributes": [
+        "poderes",
+        "giro",
+        "leyes",
+        "domicilio",
+        "poder",
+        "domicilios"
+      ],
+      "examples": [
+        "ACRISOUND SA. Certificacion firma Federico Schindler, por poder, personeria, representación, poder general y leyes.doc",
+        "Certificación FIRMA de Walter Federico Albanell por AMURA, personeria, representación. para BS.doc",
+        "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.doc",
+        "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.pages",
+        "ERROR CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.pages"
+      ]
+    },
+    "personeria": {
+      "count": 8,
+      "purposes": {},
+      "attributes": [
+        "leyes"
+      ],
+      "examples": [
+        "ACRISOUND SA. Certificacion personeria, leyes 18930, 19484 y unica Accionista y beneficiario final.doc",
+        "ACRISOUND SA. Certificacion personeria, leyes 18930, 19484 y unica Accionista.doc",
+        "Certificacion personeria, leyes 18930 y 19484 y unica accionista.pdf",
+        "Certificación control personería completo general.doc.docx",
+        "Certificación control personería completo, para ABITAB.doc"
+      ]
+    },
+    "comercio": {
+      "count": 3,
+      "purposes": {
+        "comercio": 3
+      },
+      "attributes": [],
+      "examples": [
+        "Certif. Comercio legalizado.pdf",
+        "Certificado Reg.Comercio legalizado.pdf",
+        "legalizacion de certificado de comercio.pdf"
+      ]
+    },
+    "firma_firmas": {
+      "count": 17,
+      "purposes": {
+        "dgi": 3,
+        "bcu": 1,
+        "bps": 1
+      },
+      "attributes": [
+        "poder"
+      ],
+      "examples": [
+        "certificado de firmas 352 DGI ACRISOUND SA.docx",
+        "certificado de firmas 352 DGI.docx",
+        "certificado notarial de firmas carta poder ACRISOUND SA junio 2025.docx",
+        "ALBANELL OLARREAGA Walter Federico y  WALTER BOCAGE Walter Carlos. Certificación FIRMAS.doc",
+        "Autorizacion y certificacion de firmas.pdf"
+      ]
+    },
+    "registro": {
+      "count": 3,
+      "purposes": {
+        "registro": 3,
+        "comercio": 2
+      },
+      "attributes": [
+        "leyes"
+      ],
+      "examples": [
+        "certificado para levantar observacion del registro declaratoria 17904.docx",
+        "CERTIFICACIONES LEYES 18930 Y 19484, PARA REGISTRO COMERCIO.doc",
+        "Certificado Registro Comercio.pdf"
+      ]
+    },
+    "firma_firmas_personeria_representacion_representacion": {
+      "count": 2,
+      "purposes": {
+        "comercio": 1
+      },
+      "attributes": [
+        "leyes"
+      ],
+      "examples": [
+        "Certificación FIRMAS y control personeria y representacion.doc",
+        "CERTIFICACION FIRMAS FABIAN Y CECILIA ALVAREZ, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para CAMARA COMERCIO URU-PARAGUAY.docx"
+      ]
+    },
+    "bcu": {
+      "count": 5,
+      "purposes": {
+        "bcu": 5
+      },
+      "attributes": [],
+      "examples": [
+        "Certificado de Recepcion. BCU.pdf",
+        "Inv. Rinlen. certificado recepcion BCU.pdf",
+        "Comunicacion BCU. Certif.Recepcion y Form.B.pdf",
+        "Scotiabank Uruguay S.A.- Certificado BCU.PDF",
+        "Scotiabank Uruguay S.A.- Certificado BCU.pdf"
+      ]
+    },
+    "firma_personeria": {
+      "count": 10,
+      "purposes": {
+        "bcu": 4,
+        "bps": 2,
+        "dgi": 2
+      },
+      "attributes": [
+        "giro",
+        "domicilio",
+        "poder",
+        "leyes",
+        "domicilios"
+      ],
+      "examples": [
+        "CERTIFICACION DE FIRMA SOCIO FUNDADOR, CONTROL PERSONERIA, PARA BCU.doc",
+        "CERTIFICACION DE FIRMA POR PODER,  PERSONERIA, NUEVOS DOMICILIOS Y GIRO, PARA BPS-DGI.docx",
+        "CERTIFICACION firma Claudio por poder, personeria completa, leyes, para RUPE.docx",
+        "CERTIFICACION FIRMA Y PERSONERIA,  CAMBIO DIRECTORIO. PARA bps-dgi.docx",
+        "CERTIFICACION DE FIRMA  JAVIER BASSI POR ESTATUTO,  PERSONERIA, CAMBIO DENOMINACION, LEY 17904, PARA BCU.docx"
+      ]
+    },
+    "firma_representacion_representacion": {
+      "count": 1,
+      "purposes": {},
+      "attributes": [
+        "leyes",
+        "poder"
+      ],
+      "examples": [
+        "GIRTEC S.A., CERTIFICACION FIRMA CAROLINA BOMIO POR PODER. PERSONERA, REPRESENTACION Y LEYES.doc"
+      ]
+    },
+    "zona_franca": {
+      "count": 2,
+      "purposes": {
+        "zona_franca": 2
+      },
+      "attributes": [],
+      "examples": [
+        "certificado NETKLA TRADING ZONA FRANCA 2.doc",
+        "certificado NETKLA TRADING ZONA FRANCA.doc"
+      ]
+    },
+    "firma_firmas_representacion_representacion": {
+      "count": 1,
+      "purposes": {},
+      "attributes": [
+        "poderes",
+        "poder"
+      ],
+      "examples": [
+        "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMAS, REPRESENTACIÓN, PODERES, PARA BROU.doc"
+      ]
+    }
+  },
+  "certificate_file_mapping": {
+    "otros": [
+      {
+        "customer": "AMURA ADVISORS INTERNATIONAL SA",
+        "filename": "025 Certificado 351.docx",
+        "path": "025 Certificado 351.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "AMURA ADVISORS INTERNATIONAL SA",
+        "filename": "Certif. notarial 2022-04 vigencia, representación embargo.pdf",
+        "path": "Certif. notarial 2022-04 vigencia, representación embargo.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "AMURA ADVISORS INTERNATIONAL SA",
+        "filename": "Certif. notarial, control completo SA, estudio Guyer.pdf",
+        "path": "Certif. notarial, control completo SA, estudio Guyer.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "AMURA ADVISORS INTERNATIONAL SA",
+        "filename": "Certificación de personería y representación AMURA ADVISORS INTERNATIONAL S.A. - 2023.docx",
+        "path": "Certificación de personería y representación AMURA ADVISORS INTERNATIONAL S.A. - 2023.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "AMURA ADVISORS INTERNATIONAL SA",
+        "filename": "ERROR 025 Certificado 351.pages",
+        "path": "ERROR 025 Certificado 351.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "025 certificado para Abitab.pages",
+        "path": "025 certificado para Abitab.pages",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "ACRISOUND SA. Certificacion Federico Schindler, para suprema corte.doc",
+        "path": "ACRISOUND SA. Certificacion Federico Schindler, para suprema corte.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "ACRISOUND SA. Certificado contable legalizado.pdf",
+        "path": "ACRISOUND SA. Certificado contable legalizado.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Acrisound SA. Certificado Contador del 9.03.20, Legalizado.pdf",
+        "path": "Acrisound SA. Certificado Contador del 9.03.20, Legalizado.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "ACRISOUND. Certificacion legalizada y apostillada.pdf",
+        "path": "ACRISOUND. Certificacion legalizada y apostillada.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "AMPLIANDO LA CERTIFICACIÓN QUE ANTECEDE ACRISOUND.docx",
+        "path": "AMPLIANDO LA CERTIFICACIÓN QUE ANTECEDE ACRISOUND.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Ampliando la certificación THE CONTENT BOX .docx",
+        "path": "Ampliando la certificación THE CONTENT BOX .docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Ampliando la certificación.docx",
+        "path": "Ampliando la certificación.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "certificacion de declaratoria ley 17904 ACRISOUND SA.docx",
+        "path": "certificacion de declaratoria ley 17904 ACRISOUND SA.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificación personería y representación - nuevo directorio set 2023 - ACRISOUND S.A. - PARA RNC.docx",
+        "path": "Certificación personería y representación - nuevo directorio set 2023 - ACRISOUND S.A. - PARA RNC.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "certificado de.docx",
+        "path": "certificado de.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificado notarial complementario de poder, Legalizado.pdf",
+        "path": "Certificado notarial complementario de poder, Legalizado.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificado notarial, complementario de poder para Brasil, apostillado..pdf",
+        "path": "Certificado notarial, complementario de poder para Brasil, apostillado..pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificado vigencia y representación por poder de Federico Scheindler, legalizado.2.pdf",
+        "path": "Certificado vigencia y representación por poder de Federico Scheindler, legalizado.2.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificado vigencia y representación por poder de Federico Scheindler, legalizado.pdf",
+        "path": "Certificado vigencia y representación por poder de Federico Scheindler, legalizado.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificadol Acrisound S.A..pdf",
+        "path": "Certificadol Acrisound S.A..pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "ERROR certificado para Abitab.pages",
+        "path": "ERROR certificado para Abitab.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "CERTIFICACIONES CON AMPLIACIONES. PARA BSE.pdf",
+        "path": "CERTIFICACIONES CON AMPLIACIONES. PARA BSE.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación AMURA, para ANTEL.doc",
+        "path": "Certificación AMURA, para ANTEL.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Azili SA",
+        "filename": "Certificacion control leyes 18930 y 19484.doc",
+        "path": "Certificacion control leyes 18930 y 19484.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Azili SA",
+        "filename": "ERROR Certificacion control leyes 18930 y 19484.pages",
+        "path": "ERROR Certificacion control leyes 18930 y 19484.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "BARRADAS PRO S.A.S",
+        "filename": "Certificado BARRADAS PRO SAS para IMM.docx",
+        "path": "Certificado BARRADAS PRO SAS para IMM.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "BARRADAS PRO S.A.S",
+        "filename": "ERROR Certificado BARRADAS PRO SAS para IMM.pages",
+        "path": "ERROR Certificado BARRADAS PRO SAS para IMM.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "CCC",
+        "filename": "FORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "path": "Comunicacion BCU\\FORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "CCC",
+        "filename": "FORMULARIO B Y CERTIFICACION.pdf",
+        "path": "Comunicacion BCU\\FORMULARIO B Y CERTIFICACION.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Dogs club",
+        "filename": "025 certificado para Abitab.docx",
+        "path": "025 certificado para Abitab.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Dogs club",
+        "filename": "ERROR 025 certificado para Abitab.pages",
+        "path": "ERROR 025 certificado para Abitab.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Film Group",
+        "filename": "Certificación control personería completo general.doc.docx",
+        "path": "Certificación control personería completo general.doc.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "Certificación control personería completo, para ABITAB.doc",
+        "path": "Certificación control personería completo, para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "Compraventa de acciones, certificada y legalizada.pdf",
+        "path": "Compraventa de acciones, certificada y legalizada.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "ERROR Certificación control personería completo general.doc.pages",
+        "path": "ERROR Certificación control personería completo general.doc.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Film Group",
+        "filename": "FORMULARIO B Y CERTIFICACION-cpr.pdf",
+        "path": "Comunicacion BCU 2023\\FORMULARIO B Y CERTIFICACION-cpr.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "FORMULARIO B Y CERTIFICACION.pdf",
+        "path": "Comunicacion BCU 2023\\FORMULARIO B Y CERTIFICACION.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "Certificado de Recepcion.pdf",
+        "path": "Comunicacion BCU, año 2022\\Certificado de Recepcion.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "Fomulario B y Certificacion.pdf",
+        "path": "Comunicacion BCU, año 2022\\Fomulario B y Certificacion.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "Form.B2 y Certificacion-cpr.pdf",
+        "path": "Comunicacion BCU, año 2022\\Form.B2 y Certificacion-cpr.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "Form.B2 y Certificacion.pdf",
+        "path": "Comunicacion BCU, año 2022\\Form.B2 y Certificacion.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "certificado - carta poder Frainel SA (2).doc",
+        "path": "certificado - carta poder Frainel SA (2).doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "certificado - carta poder Frainel SA.doc",
+        "path": "certificado - carta poder Frainel SA.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "CERTIFICADO DE RECEPCION.pdf",
+        "path": "Comunicacion BCU\\CERTIFICADO DE RECEPCION.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "FORMULARO B Y CERTIFICACION-Comprimido.pdf",
+        "path": "Comunicacion BCU\\FORMULARO B Y CERTIFICACION-Comprimido.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "FORMULARO B Y CERTIFICACION.pdf",
+        "path": "Comunicacion BCU\\FORMULARO B Y CERTIFICACION.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S A - Cardales.doc",
+        "path": "certificado Girtec S A - Cardales.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S A - IMC.doc",
+        "path": "certificado Girtec S A - IMC.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - BASE DE DATOS 2.doc",
+        "path": "certificado Girtec S.A. - BASE DE DATOS 2.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - BASE DE DATOS.doc",
+        "path": "certificado Girtec S.A. - BASE DE DATOS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - COMPLETO 2.doc",
+        "path": "certificado Girtec S.A. - COMPLETO 2.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - COMPLETO con poder Veronica.doc",
+        "path": "certificado Girtec S.A. - COMPLETO con poder Veronica.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - COMPLETO con poder.doc",
+        "path": "certificado Girtec S.A. - COMPLETO con poder.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - COMPLETO con poderes 2.doc",
+        "path": "certificado Girtec S.A. - COMPLETO con poderes 2.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - COMPLETO con poderes Caro y veronica.doc",
+        "path": "certificado Girtec S.A. - COMPLETO con poderes Caro y veronica.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "Certificado Girtec S.A. - COMPLETO con poderes y 18930 - migraciones.doc",
+        "path": "Certificado Girtec S.A. - COMPLETO con poderes y 18930 - migraciones.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "Certificado Girtec S.A. - COMPLETO con poderes y 18930 - migraciones.docx",
+        "path": "Certificado Girtec S.A. - COMPLETO con poderes y 18930 - migraciones.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "Certificado Girtec S.A. - COMPLETO con poderes y 18930.doc",
+        "path": "Certificado Girtec S.A. - COMPLETO con poderes y 18930.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - COMPLETO con poderes.doc",
+        "path": "certificado Girtec S.A. - COMPLETO con poderes.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - COMPLETO.doc",
+        "path": "certificado Girtec S.A. - COMPLETO.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S.A. - LEASING.doc",
+        "path": "certificado Girtec S.A. - LEASING.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "certificado Girtec S[1].A..doc",
+        "path": "certificado Girtec S[1].A..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "Certificado notarial para IMC, para CUD.pdf",
+        "path": "Certificado notarial para IMC, para CUD.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "FORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "path": "COMUNICACION BCU. LEY 19484\\FORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "FORMULARIO B Y CERTIFICACION.pdf",
+        "path": "COMUNICACION BCU. LEY 19484\\FORMULARIO B Y CERTIFICACION.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Ingatel",
+        "filename": "ERROR Cert INGATEL S.A..pages",
+        "path": "ERROR Cert INGATEL S.A..pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Inversora Laredo",
+        "filename": "Certificación para CGN, libre contratación, padrones 426781-1008 y 1009, Mdeo.doc",
+        "path": "Certificación para CGN, libre contratación, padrones 426781-1008 y 1009, Mdeo.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Inversora Laredo",
+        "filename": "escaner certificado inversora laredo sa para abitab.pdf",
+        "path": "escaner certificado inversora laredo sa para abitab.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Inversora Rinlen SA",
+        "filename": "Certificacion representación y leyes.pdf",
+        "path": "Certificacion representación y leyes.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Mercefar",
+        "filename": "escaner certificado mecefar sa sa para abitab.pdf",
+        "path": "escaner certificado mecefar sa sa para abitab.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Certificado notarial, vigencia Poder Pletios. Nexlog a Carlos Ramela y otros..docx",
+        "path": "Certificado notarial, vigencia Poder Pletios. Nexlog a Carlos Ramela y otros..docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Certificado de Recepcion.pdf",
+        "path": "COMUNICACION BCU. 2019\\Certificado de Recepcion.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Form.B y Certificacion-cpr.pdf",
+        "path": "COMUNICACION BCU. 2019\\Form.B y Certificacion-cpr.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Form.B y Certificacion.pdf",
+        "path": "COMUNICACION BCU. 2019\\Form.B y Certificacion.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Certificado de Recepción.pdf",
+        "path": "Comunicación BCU\\Certificado de Recepción.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Formulario B y Certificación-cpr-ptg.pdf",
+        "path": "Comunicación BCU\\Formulario B y Certificación-cpr-ptg.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Formulario B y Certificación.pdf",
+        "path": "Comunicación BCU\\Formulario B y Certificación.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Certificacion para ANTEL, por poderes y revocaciones.pdf",
+        "path": "Docs escaneados\\Certificacion para ANTEL, por poderes y revocaciones.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Certificado de Recepcion.pdf",
+        "path": "Docs escaneados\\Certificado de Recepcion.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "certificado NETKLA TRADING.doc",
+        "path": "certificado NETKLA TRADING.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A. CERTIFICACION,  personería, representación, leyes y otros datos. para ZF.doc",
+        "path": "NETKLA TRADING S.A. CERTIFICACION,  personería, representación, leyes y otros datos. para ZF.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A., CERTIFICACION, personería jurídica y representación.doc",
+        "path": "NETKLA TRADING S.A., CERTIFICACION, personería jurídica y representación.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "fORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "path": "COMUNICACION AL BCU\\fORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "fORMULARIO B Y CERTIFICACION.pdf",
+        "path": "COMUNICACION AL BCU\\fORMULARIO B Y CERTIFICACION.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Northflower",
+        "filename": "escaner certificado northflower inc sa sa para abitab.pdf",
+        "path": "escaner certificado northflower inc sa sa para abitab.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Nubegris SA",
+        "filename": "Certificacion representación y leyes.pdf",
+        "path": "Certificacion representación y leyes.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "PISCUS SA",
+        "filename": "024 Certificacion Carta Poder.docx",
+        "path": "024 Certificacion Carta Poder.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "PISCUS SA",
+        "filename": "ERROR 024 Certificacion Carta Poder.pages",
+        "path": "ERROR 024 Certificacion Carta Poder.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Palermotec",
+        "filename": "escaner certificado palermotec sa para abitab.pdf",
+        "path": "escaner certificado palermotec sa para abitab.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Platintor",
+        "filename": "CERTIFICACION FORMULARIO B.doc",
+        "path": "COMUNICACION BCU\\CERTIFICACION FORMULARIO B.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Platintor",
+        "filename": "FORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "path": "COMUNICACION BCU\\FORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Platintor",
+        "filename": "FORMULARIO B Y CERTIFICACION.pdf",
+        "path": "COMUNICACION BCU\\FORMULARIO B Y CERTIFICACION.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.ANTES SEA LIMITADA, PARA REG.PODERES. Ampliacion.doc",
+        "path": "CERTIF.ANTES SEA LIMITADA, PARA REG.PODERES. Ampliacion.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.ANTES SEA LIMITADA, PARA REG.PODERES.doc",
+        "path": "CERTIF.ANTES SEA LIMITADA, PARA REG.PODERES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIFICACION FORMULARIO B.doc",
+        "path": "CERTIFICACION FORMULARIO B.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "FORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "path": "Comunicación BCU\\FORMULARIO B Y CERTIFICACION-cpr-ptg.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "FORMULARIO B Y CERTIFICACION.pdf",
+        "path": "Comunicación BCU\\FORMULARIO B Y CERTIFICACION.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Ampliacion certificacion Leasing DFSK, datos camioneta.doc",
+        "path": "Leasings\\Ampliacion certificacion Leasing DFSK, datos camioneta.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Ampliacion certificacion Leasing GWM Wingle, datos camioneta.doc",
+        "path": "Leasings\\Ampliacion certificacion Leasing GWM Wingle, datos camioneta.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion Carta poder SCOTIABANK.docx",
+        "path": "Leasings\\Certificacion Carta poder SCOTIABANK.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Ampliacion certificacion Leasing DFSK, datos camioneta.doc",
+        "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Ampliacion certificacion Leasing DFSK, datos camioneta.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion vigencia SOA.doc",
+        "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Certificacion vigencia SOA.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "certificado - Saterix S.A. (completo) 2.doc",
+        "path": "certificado - Saterix S.A. (completo) 2.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "certificado - Saterix S.A. (completo).doc",
+        "path": "certificado - Saterix S.A. (completo).doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "certificado - Saterix S.A. (UTE).doc",
+        "path": "certificado - Saterix S.A. (UTE).doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "certificado - Saterix S.A. - BASE DE DATOS 2.doc",
+        "path": "certificado - Saterix S.A. - BASE DE DATOS 2.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "certificado - Saterix S.A. - BASE DE DATOS.doc",
+        "path": "certificado - Saterix S.A. - BASE DE DATOS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "SATERIX S.A., AMPLIACION CERTIFICACION  PARA BBVA, SEDE, ASAMBLEA Y L.17904.doc",
+        "path": "SATERIX S.A., AMPLIACION CERTIFICACION  PARA BBVA, SEDE, ASAMBLEA Y L.17904.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "Certificado - Service e Instalaciones S.A. (SISA) - Eduardo Bomio 2.doc",
+        "path": "Certificado - Service e Instalaciones S.A. (SISA) - Eduardo Bomio 2.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "Certificado - Service e Instalaciones S.A. (SISA) - Eduardo Bomio.doc",
+        "path": "Certificado - Service e Instalaciones S.A. (SISA) - Eduardo Bomio.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "Certificado - SISA -BASE DE DATOS 2.doc",
+        "path": "Certificado - SISA -BASE DE DATOS 2.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "Certificado - SISA -BASE DE DATOS.doc",
+        "path": "Certificado - SISA -BASE DE DATOS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "formulario b y certificacion-cpr-ptg.pdf",
+        "path": "COMUNICACION BCU\\formulario b y certificacion-cpr-ptg.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "formulario b y certificacion.pdf",
+        "path": "COMUNICACION BCU\\formulario b y certificacion.pdf",
+        "error_flag": false
+      }
+    ],
+    "firma": [
+      {
+        "customer": "AMURA ADVISORS INTERNATIONAL SA",
+        "filename": "AMURA ADVISORS INTERNATIONAL SA. Certificación firma Walter Albanell, control SA, para contrato Zona Franca.doc",
+        "path": "AMURA ADVISORS INTERNATIONAL SA. Certificación firma Walter Albanell, control SA, para contrato Zona Franca.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "ACRISOUND SA. Certificacion firma Federico Schindler, por poder, personeria, representación, poder general y leyes.doc",
+        "path": "ACRISOUND SA. Certificacion firma Federico Schindler, por poder, personeria, representación, poder general y leyes.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "certificado de firmas 352 DGI ACRISOUND SA.docx",
+        "path": "certificado de firmas 352 DGI ACRISOUND SA.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "certificado de firmas 352 DGI.docx",
+        "path": "certificado de firmas 352 DGI.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "certificado notarial de firmas carta poder ACRISOUND SA junio 2025.docx",
+        "path": "certificado notarial de firmas carta poder ACRISOUND SA junio 2025.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "ALBANELL BOCAGE Walter. Certificación FIRMA y Estado de Responsabilidad, para BSE.doc",
+        "path": "ALBANELL BOCAGE Walter. Certificación FIRMA y Estado de Responsabilidad, para BSE.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "ALBANELL OLARREAGA Walter Federico y  WALTER BOCAGE Walter Carlos. Certificación FIRMAS.doc",
+        "path": "ALBANELL OLARREAGA Walter Federico y  WALTER BOCAGE Walter Carlos. Certificación FIRMAS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "ALBANELL OLARREAGA Walter Federico. Certificación FIRMA y Estado de Responsabilidad, para BSE..doc",
+        "path": "ALBANELL OLARREAGA Walter Federico. Certificación FIRMA y Estado de Responsabilidad, para BSE..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Autorizacion y certificacion de firmas.pdf",
+        "path": "Autorizacion y certificacion de firmas.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación FIRMA de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.doc",
+        "path": "Certificación FIRMA de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación firma digital de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.doc",
+        "path": "Certificación firma digital de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación FIRMA de Adriana ORRICO, para BCU.doc",
+        "path": "Certificación FIRMA de Adriana ORRICO, para BCU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación FIRMA de Walter Federico Albanell por AMURA, declaracion jurada para CAR ONE.doc",
+        "path": "Certificación FIRMA de Walter Federico Albanell por AMURA, declaracion jurada para CAR ONE.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación FIRMA de Walter Federico Albanell por AMURA, para BCU.doc",
+        "path": "Certificación FIRMA de Walter Federico Albanell por AMURA, para BCU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación FIRMA de Walter Federico Albanell por AMURA, para contrato usuario Zonamerica.doc",
+        "path": "Certificación FIRMA de Walter Federico Albanell por AMURA, para contrato usuario Zonamerica.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación FIRMA de Walter Federico Albanell por AMURA, personeria, representación. para BS.doc",
+        "path": "Certificación FIRMA de Walter Federico Albanell por AMURA, personeria, representación. para BS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación FIRMAS de Walter Federico Albanell y Adriana ORRICO PEREYRA, para BCU.doc",
+        "path": "Certificación FIRMAS de Walter Federico Albanell y Adriana ORRICO PEREYRA, para BCU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación FIRMAS y control personeria y representacion.doc",
+        "path": "Certificación FIRMAS y control personeria y representacion.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación FIRMAS y datos contrato social, para alta BPS-DGI.doc",
+        "path": "Certificación FIRMAS y datos contrato social, para alta BPS-DGI.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "ERROR Certificación FIRMA de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.pages",
+        "path": "ERROR Certificación FIRMA de Walter Federico Albanell por AMURA, control sociedad y datos. para ABITAB.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "CCC",
+        "filename": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.doc",
+        "path": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "CCC",
+        "filename": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.pages",
+        "path": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.pages",
+        "error_flag": false
+      },
+      {
+        "customer": "CCC",
+        "filename": "ERROR CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.pages",
+        "path": "ERROR CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "CCC",
+        "filename": "FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "path": "Comunicacion BCU\\FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "CCC Machinery",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para ABITAB.docx",
+        "path": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para ABITAB.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "CCC Machinery",
+        "filename": "ERROR CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para ABITAB.pages",
+        "path": "ERROR CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para ABITAB.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "DATYLCO",
+        "filename": "CERTIFICACION FIRMAS DATYLC.pages",
+        "path": "CERTIFICACION FIRMAS DATYLC.pages",
+        "error_flag": false
+      },
+      {
+        "customer": "DATYLCO",
+        "filename": "ERROR CERTIFICACION FIRMAS DATYLC.pages",
+        "path": "ERROR CERTIFICACION FIRMAS DATYLC.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "FVT Consulting",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, COMUNICACION BCU.docx",
+        "path": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, COMUNICACION BCU.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "FVT Consulting",
+        "filename": "ERROR CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, COMUNICACION BCU.pages",
+        "path": "ERROR CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, COMUNICACION BCU.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Film Group",
+        "filename": "FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "path": "Comunicacion BCU 2023\\FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "CERTIFICACION DE FIRMA SOCIO FUNDADOR, CONTROL PERSONERIA, PARA BCU.doc",
+        "path": "Comunicacion BCU, año 2022\\CERTIFICACION DE FIRMA SOCIO FUNDADOR, CONTROL PERSONERIA, PARA BCU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "Form.B2 y Certificacion-Firmado.efs",
+        "path": "Comunicacion BCU, año 2022\\Form.B2 y Certificacion-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "CERTIFICACION FIRMA VERONICA CHARLONE MIR POR PODER, PERSONERIA, REPRESENTACIÓN, LEY 17904.doc",
+        "path": "CERTIFICACION FIRMA VERONICA CHARLONE MIR POR PODER, PERSONERIA, REPRESENTACIÓN, LEY 17904.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "CERTIFICACION FIRMA VERONICA CHARLONE POR ESTATUTO, PERSONERIA, REPRESENTACIÓN Y LEYES 17904 , 18930 Y 19484, para BPS-DGI.doc",
+        "path": "CERTIFICACION FIRMA VERONICA CHARLONE POR ESTATUTO, PERSONERIA, REPRESENTACIÓN Y LEYES 17904 , 18930 Y 19484, para BPS-DGI.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "CERTIFICACION FIRMA VERONICA CHARLONE POR ESTATUTO, PERSONERIA, REPRESENTACIÓN Y LEYES 17904 , 18930 Y 19484..doc",
+        "path": "CERTIFICACION FIRMA VERONICA CHARLONE POR ESTATUTO, PERSONERIA, REPRESENTACIÓN Y LEYES 17904 , 18930 Y 19484..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "ERROR CERTIFICACION FIRMA VERONICA CHARLONE POR ESTATUTO, PERSONERIA, REPRESENTACIÓN Y LEYES 17904 , 18930 Y 19484, para BPS-DGI.pages",
+        "path": "ERROR CERTIFICACION FIRMA VERONICA CHARLONE POR ESTATUTO, PERSONERIA, REPRESENTACIÓN Y LEYES 17904 , 18930 Y 19484, para BPS-DGI.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Frainel",
+        "filename": "FORMULARO B Y CERTIFICACION-Firmado.efs",
+        "path": "Comunicacion BCU\\FORMULARO B Y CERTIFICACION-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIF.FIRMAS BS Y GIRTEC. CANCELACION LEASING Y COMPRAVENTA. CAMIONETA GWM DE FEDE.docx",
+        "path": "CERTIF.FIRMAS BS Y GIRTEC. CANCELACION LEASING Y COMPRAVENTA. CAMIONETA GWM DE FEDE.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICACION FIRMA CAROLINA BOMIO, POR PODER, PERSONERIA, REPRESENTACIÓN, LEYES,, PARA SCOTIABANK.doc",
+        "path": "CERTIFICACION FIRMA CAROLINA BOMIO, POR PODER, PERSONERIA, REPRESENTACIÓN, LEYES,, PARA SCOTIABANK.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEY 19484, PARA ABITAB.doc",
+        "path": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEY 19484, PARA ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES, PARA IMC.doc",
+        "path": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES, PARA IMC.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES, para SBI Seguros.doc",
+        "path": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES, para SBI Seguros.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES, PARA SCOTIABANK.doc",
+        "path": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES, PARA SCOTIABANK.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "Certificación de Firma Eduardo, para firma Digital. Abitab.pdf",
+        "path": "Certificación de Firma Eduardo, para firma Digital. Abitab.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION FIRMA CAROLINA BOMIO POR PODER. PERSONERA, REPRESENTACION Y LEYES.doc",
+        "path": "GIRTEC S.A., CERTIFICACION FIRMA CAROLINA BOMIO POR PODER. PERSONERA, REPRESENTACION Y LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES 17904 Y 189301.doc",
+        "path": "GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES 17904 Y 189301.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEY 18930, PARA BCU.doc",
+        "path": "GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEY 18930, PARA BCU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES 17904 Y 18930.doc",
+        "path": "GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES 17904 Y 18930.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES 17904, 18930 Y 19484.doc",
+        "path": "GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES 17904, 18930 Y 19484.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "path": "COMUNICACION BCU. LEY 19484\\FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEY 18930, PARA BCU.doc",
+        "path": "COMUNICACION BCU. LEY 19484\\GIRTEC S.A., CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEY 18930, PARA BCU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Ingatel",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para ABITAB.docx",
+        "path": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para ABITAB.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Ingatel",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para PRENDA.docx",
+        "path": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para PRENDA.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Ingatel",
+        "filename": "CERTIFICACION FIRMAS FABIAN Y CECILIA ALVAREZ, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para CAMARA COMERCIO URU-PARAGUAY.docx",
+        "path": "CERTIFICACION FIRMAS FABIAN Y CECILIA ALVAREZ, PERSONERIA, REPRESENTACION, LEYES Y OTROS DATOS. para CAMARA COMERCIO URU-PARAGUAY.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Inversora Laredo",
+        "filename": "CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.doc",
+        "path": "CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Inversora Laredo",
+        "filename": "ERROR CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.pages",
+        "path": "ERROR CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Litamex",
+        "filename": "Certificación de Firma y control personeria, representación y leyes, para ABITAB.docx",
+        "path": "Certificación de Firma y control personeria, representación y leyes, para ABITAB.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Litamex",
+        "filename": "Certificación de Firma y control personeria, representación y leyes, para zona franca.docx",
+        "path": "Certificación de Firma y control personeria, representación y leyes, para zona franca.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Litamex",
+        "filename": "ERROR Certificación de Firma y control personeria, representación y leyes, para ABITAB.pages",
+        "path": "ERROR Certificación de Firma y control personeria, representación y leyes, para ABITAB.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Mastershop",
+        "filename": "Certificación Firma Juan A. Flores, por Mastershop SA,  personeria y representación..doc",
+        "path": "Certificación Firma Juan A. Flores, por Mastershop SA,  personeria y representación..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Mastershop",
+        "filename": "ERROR Certificación Firma Juan A. Flores, por Mastershop SA,  personeria y representación..pages",
+        "path": "ERROR Certificación Firma Juan A. Flores, por Mastershop SA,  personeria y representación..pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Mercefar",
+        "filename": "CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.doc",
+        "path": "CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Mercefar",
+        "filename": "ERROR CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.pages",
+        "path": "ERROR CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE FIRMA ANNA FERREYRA. CONTROLCOMPLETO SA. PARA FIRMA DIGITAL ABITAB.docx",
+        "path": "CERTIFICACION DE FIRMA ANNA FERREYRA. CONTROLCOMPLETO SA. PARA FIRMA DIGITAL ABITAB.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE FIRMA JOAQUIN OLIVERA. CONTROL COMPLETO SA. PARA FIRMA DIGITAL ABITAB.docx",
+        "path": "CERTIFICACION DE FIRMA JOAQUIN OLIVERA. CONTROL COMPLETO SA. PARA FIRMA DIGITAL ABITAB.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE FIRMA POR PODER,  PERSONERIA, NUEVOS DOMICILIOS Y GIRO, PARA BPS-DGI.docx",
+        "path": "CERTIFICACION DE FIRMA POR PODER,  PERSONERIA, NUEVOS DOMICILIOS Y GIRO, PARA BPS-DGI.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, PODERES Y REVOCACIONES, BPS-DGI.docx",
+        "path": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, PODERES Y REVOCACIONES, BPS-DGI.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES.docx",
+        "path": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, SEDE Y BCU, PARA COMERCIO.docx",
+        "path": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, SEDE Y BCU, PARA COMERCIO.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION firma Claudio Fernandez apoderado, personeria, cambio denominación, representacion, leyes vigentes, alta poder en BPs,DGI.docx",
+        "path": "CERTIFICACION firma Claudio Fernandez apoderado, personeria, cambio denominación, representacion, leyes vigentes, alta poder en BPs,DGI.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION firma Claudio Fernandez por poder, personeria, cambio denominación, representacion, leyes vigentes, domicilio fiscal..docx",
+        "path": "CERTIFICACION firma Claudio Fernandez por poder, personeria, cambio denominación, representacion, leyes vigentes, domicilio fiscal..docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION firma Claudio Fernandez por poder, personeria, cambio denominación, representacion, leyes vigentes, nuevo domicilio fiscal. para DINACIA.docx",
+        "path": "CERTIFICACION firma Claudio Fernandez por poder, personeria, cambio denominación, representacion, leyes vigentes, nuevo domicilio fiscal. para DINACIA.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION firma Claudio Fernandez por poder, personeria, cambio denominación, representacion, leyes vigentes, nuevo domicilio fiscal..docx",
+        "path": "CERTIFICACION firma Claudio Fernandez por poder, personeria, cambio denominación, representacion, leyes vigentes, nuevo domicilio fiscal..docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION firma Claudio por poder, personeria completa, leyes, para RUPE.docx",
+        "path": "CERTIFICACION firma Claudio por poder, personeria completa, leyes, para RUPE.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION FIRMA Y PERSONERIA,  CAMBIO DIRECTORIO. PARA bps-dgi.docx",
+        "path": "CERTIFICACION FIRMA Y PERSONERIA,  CAMBIO DIRECTORIO. PARA bps-dgi.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION PERSONERIA Y REPRESENTACIÓN,  ANNA FERREYRA. PARA FIRMA DIGITAL ABITAB.docx",
+        "path": "CERTIFICACION PERSONERIA Y REPRESENTACIÓN,  ANNA FERREYRA. PARA FIRMA DIGITAL ABITAB.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE FIRMA  JAVIER BASSI POR ESTATUTO,  PERSONERIA, CAMBIO DENOMINACION, LEY 17904, PARA BCU.docx",
+        "path": "COMUNICACION BCU. 2019\\CERTIFICACION DE FIRMA  JAVIER BASSI POR ESTATUTO,  PERSONERIA, CAMBIO DENOMINACION, LEY 17904, PARA BCU.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Form.B y Certificacion-Firmado.efs",
+        "path": "COMUNICACION BCU. 2019\\Form.B y Certificacion-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE FIRMA JOAQUIN OLIVERA. CONTROL COMPLETO SA. PARA FIRMA DIGITAL ABITAB.docx",
+        "path": "Comunicación BCU\\CERTIFICACION DE FIRMA JOAQUIN OLIVERA. CONTROL COMPLETO SA. PARA FIRMA DIGITAL ABITAB.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE FIRMA POR PODER,  PERSONERIA, LEY 17904, PARA BCU.docx",
+        "path": "Comunicación BCU\\CERTIFICACION DE FIRMA POR PODER,  PERSONERIA, LEY 17904, PARA BCU.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Formulario B y Certificación-Firmado.efs",
+        "path": "Comunicación BCU\\Formulario B y Certificación-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Certificación de Firma Joaquin Olivera, para firma Digital. Abitab.pdf",
+        "path": "Docs escaneados\\Certificación de Firma Joaquin Olivera, para firma Digital. Abitab.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "ERROR NETKLA TRADING S.A. CERTIFICACION, firma Eduardo BOMIO,  personería, representación, leyes y otros datos. para ABITAB.pages",
+        "path": "ERROR NETKLA TRADING S.A. CERTIFICACION, firma Eduardo BOMIO,  personería, representación, leyes y otros datos. para ABITAB.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A. CERTIFICACION Firma, personería, representación, leyes y otros datos. PANAMA.doc",
+        "path": "NETKLA TRADING S.A. CERTIFICACION Firma, personería, representación, leyes y otros datos. PANAMA.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A. CERTIFICACION Firma, personería, representación, leyes y otros datos. para ZF.doc",
+        "path": "NETKLA TRADING S.A. CERTIFICACION Firma, personería, representación, leyes y otros datos. para ZF.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A. CERTIFICACION, firma Carolina Bomio por Poder y personería completa..doc",
+        "path": "NETKLA TRADING S.A. CERTIFICACION, firma Carolina Bomio por Poder y personería completa..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A. CERTIFICACION, firma Carolina BOMIO por poder,  personería, representación, leyes.doc",
+        "path": "NETKLA TRADING S.A. CERTIFICACION, firma Carolina BOMIO por poder,  personería, representación, leyes.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A. CERTIFICACION, firma Carolina BOMIO,  personería, representación, poder, leyes y otros datos. para ABITAB.doc",
+        "path": "NETKLA TRADING S.A. CERTIFICACION, firma Carolina BOMIO,  personería, representación, poder, leyes y otros datos. para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A. CERTIFICACION, firma Eduardo BOMIO,  personería, representación, leyes y otros datos. para ABITAB.doc",
+        "path": "NETKLA TRADING S.A. CERTIFICACION, firma Eduardo BOMIO,  personería, representación, leyes y otros datos. para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A. CERTIFICACION, firma Eduardo BOMIO,  personería, representación, leyes..doc",
+        "path": "NETKLA TRADING S.A. CERTIFICACION, firma Eduardo BOMIO,  personería, representación, leyes..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "CERTIFICACION  firma Eduardo BOMIO,  personería, representación, leyes. para BCU.doc",
+        "path": "COMUNICACION AL BCU\\CERTIFICACION  firma Eduardo BOMIO,  personería, representación, leyes. para BCU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "fORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "path": "COMUNICACION AL BCU\\fORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "Northflower",
+        "filename": "CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.doc",
+        "path": "CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Northflower",
+        "filename": "ERROR CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.pages",
+        "path": "ERROR CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Palermotec",
+        "filename": "CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.doc",
+        "path": "CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Palermotec",
+        "filename": "ERROR CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.pages",
+        "path": "ERROR CERTIF.FIRMA JOAQUIN OLIVERA POR AUTORIZACION, PERSONERIA, REPRESENTACIÓN, LEYES, GIRO Y DOMICILIO, para ABITAB.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Platintor",
+        "filename": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.doc",
+        "path": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Platintor",
+        "filename": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.pages",
+        "path": "CERTIFICACION DE FIRMA, PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS.pages",
+        "error_flag": false
+      },
+      {
+        "customer": "Platintor",
+        "filename": "FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "path": "COMUNICACION BCU\\FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF. FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES, para IMM.doc",
+        "path": "CERTIF. FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES, para IMM.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF. FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES. para poder general y PROTOCOLIZACION.  XIME. oc.doc",
+        "path": "CERTIF. FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES. para poder general y PROTOCOLIZACION.  XIME. oc.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF. FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES. para poder general. XIME. oc.doc",
+        "path": "CERTIF. FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES. para poder general. XIME. oc.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.FIRMA EDUARDO BOMIO, PERSONERIA, LEYES, para BCU.doc",
+        "path": "CERTIF.FIRMA EDUARDO BOMIO, PERSONERIA, LEYES, para BCU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES, alta Directorio BPS-DGI.doc",
+        "path": "CERTIF.FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES, alta Directorio BPS-DGI.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES, para DGI.doc",
+        "path": "CERTIF.FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES, para DGI.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES, para DIGEFE.doc",
+        "path": "CERTIF.FIRMA EDUARDO BOMIO, PERSONERIA, REPRESENTACIÓN, LEYES, para DIGEFE.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES 17904, 18930 Y 19484, PARA IMC..doc",
+        "path": "CERTIFICACION FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES 17904, 18930 Y 19484, PARA IMC..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMA POR PODER, PERSONERIA, REPRESENTACIÓN, LEYES, para ABITAB.doc",
+        "path": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMA POR PODER, PERSONERIA, REPRESENTACIÓN, LEYES, para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMA POR PODER, PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "path": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMA POR PODER, PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES, para ABITAB.doc",
+        "path": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES, para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "path": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMA, PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMAS, REPRESENTACIÓN, PODERES, PARA BROU.doc",
+        "path": "SISTEMAS ELECTRONICOS AVANZADOS SA. CERTIF.FIRMAS, REPRESENTACIÓN, PODERES, PARA BROU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "path": "Comunicación BCU\\FORMULARIO B Y CERTIFICACION-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion Firmas de compraventas.docx",
+        "path": "Leasings\\Certificacion Firmas de compraventas.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion Firmas de Leasing y Ampliacion. DFSK.docx",
+        "path": "Leasings\\Certificacion Firmas de Leasing y Ampliacion. DFSK.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion Firmas de Leasing y Ampliacion. GWM WINGLE.docx",
+        "path": "Leasings\\Certificacion Firmas de Leasing y Ampliacion. GWM WINGLE.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion Firmas de Leasings.docx",
+        "path": "Leasings\\Certificacion Firmas de Leasings.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion Firmas de compraventas.docx",
+        "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Certificacion Firmas de compraventas.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion Firmas de Leasing (FALTA AMPLIAR).docx",
+        "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Certificacion Firmas de Leasing (FALTA AMPLIAR).docx",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion Firmas Scotiabank, carta poder IMC.docx",
+        "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Certificacion Firmas Scotiabank, carta poder IMC.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "ERROR SATERIX S.A., CERTIFICACION FIRMA DANIEL BOMIO, PERSONERIA JURIDICA, REPRESENTACION, LEYES.pages",
+        "path": "ERROR SATERIX S.A., CERTIFICACION FIRMA DANIEL BOMIO, PERSONERIA JURIDICA, REPRESENTACION, LEYES.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Saterix",
+        "filename": "SATERIX S.A., CERTIFICACION FIRMA DANIEL BOMIO, COMO DIRECTOR, CONTROL SA.doc",
+        "path": "SATERIX S.A., CERTIFICACION FIRMA DANIEL BOMIO, COMO DIRECTOR, CONTROL SA.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "SATERIX S.A., CERTIFICACION FIRMA DANIEL BOMIO, COMO DIRECTOR, PERSONERIA JURIDICA.doc",
+        "path": "SATERIX S.A., CERTIFICACION FIRMA DANIEL BOMIO, COMO DIRECTOR, PERSONERIA JURIDICA.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "SATERIX S.A., CERTIFICACION FIRMA DANIEL BOMIO, PERSONERIA JURIDICA, REPRESENTACION, LEYES.doc",
+        "path": "SATERIX S.A., CERTIFICACION FIRMA DANIEL BOMIO, PERSONERIA JURIDICA, REPRESENTACION, LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "SERVICE E INSTALACIONES S.A., CERTIFICACION FIRMA Y CONTROL COMPLETO.doc",
+        "path": "SERVICE E INSTALACIONES S.A., CERTIFICACION FIRMA Y CONTROL COMPLETO.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "SERVICE E INSTALACIONES SA,certificación de firma Bomio,  personeria y representación.doc",
+        "path": "SERVICE E INSTALACIONES SA,certificación de firma Bomio,  personeria y representación.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "CERTIFICACION FIRMA, PERSONERIA, LEYES.doc",
+        "path": "COMUNICACION BCU\\CERTIFICACION FIRMA, PERSONERIA, LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "formulario b y certificacion-Firmado.efs",
+        "path": "COMUNICACION BCU\\formulario b y certificacion-Firmado.efs",
+        "error_flag": false
+      },
+      {
+        "customer": "Treegarden",
+        "filename": "ERROR TREE GARDEN S.A., CERTIFICACION FIRMA Jorge MARQUEZ, personeria y representación.pages",
+        "path": "ERROR TREE GARDEN S.A., CERTIFICACION FIRMA Jorge MARQUEZ, personeria y representación.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Treegarden",
+        "filename": "TREE GARDEN S.A., CERTIFICACION FIRMA Jorge MARQUEZ, personeria y representación.doc",
+        "path": "TREE GARDEN S.A., CERTIFICACION FIRMA Jorge MARQUEZ, personeria y representación.doc",
+        "error_flag": false
+      }
+    ],
+    "representacion_representacion": [
+      {
+        "customer": "Acrisound",
+        "filename": "Certificacion personeria, representacion y leyes. Legalizada y Apostillada..pdf",
+        "path": "Certificacion personeria, representacion y leyes. Legalizada y Apostillada..pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificación personeria, representacion, leyes.doc",
+        "path": "Certificación personeria, representacion, leyes.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Amura Advisors Ltda",
+        "filename": "Certificado personeria, representacion, leyes.pdf",
+        "path": "Certificado personeria, representacion, leyes.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "CERTIFICACION DE PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS Y ACCIONISTAS.doc",
+        "path": "CERTIFICACION DE PERSONERIA, REPRESENTACION, LEYES, DOMICILIOS Y ACCIONISTAS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "CERTIFICACION DE PERSONERIA, REPRESENTACION ACTUAL Y DECLARATORIA, PARA BCU.doc",
+        "path": "Comunicacion BCU 2023\\CERTIFICACION DE PERSONERIA, REPRESENTACION ACTUAL Y DECLARATORIA, PARA BCU.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICADO PERSONERIA, REPRESENTACION, LEYES, DATOS, año 2025.docx",
+        "path": "CERTIFICADO PERSONERIA, REPRESENTACION, LEYES, DATOS, año 2025.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICADO PERSONERIA, REPRESENTACION, LEYES, DATOS, PARA ABITAB., año 2024.docx",
+        "path": "CERTIFICADO PERSONERIA, REPRESENTACION, LEYES, DATOS, PARA ABITAB., año 2024.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "ERROR CERTIFICADO PERSONERIA, REPRESENTACION, LEYES, DATOS, año 2025.pages",
+        "path": "ERROR CERTIFICADO PERSONERIA, REPRESENTACION, LEYES, DATOS, año 2025.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION PERSONERA, REPRESENTACION, PODER CAROLINA Y LEYES.doc",
+        "path": "GIRTEC S.A., CERTIFICACION PERSONERA, REPRESENTACION, PODER CAROLINA Y LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION PERSONERIA, REPRESENTACION, PODERES, LEY 18930.doc",
+        "path": "GIRTEC S.A., CERTIFICACION PERSONERIA, REPRESENTACION, PODERES, LEY 18930.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE PERSONERIA, REPRESENTACION, LEYES Y PODERES.docx",
+        "path": "CERTIFICACION DE PERSONERIA, REPRESENTACION, LEYES Y PODERES.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION DE PERSONERIA, REPRESENTACION, PODER, OBJETO, DOMICILIO Y LEYES, PARA DINACIA.docx",
+        "path": "CERTIFICACION DE PERSONERIA, REPRESENTACION, PODER, OBJETO, DOMICILIO Y LEYES, PARA DINACIA.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION PERSONERIA,  REPRESENTACION ACTUAL, PODER Y LEYES.docx",
+        "path": "CERTIFICACION PERSONERIA,  REPRESENTACION ACTUAL, PODER Y LEYES.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION personeria, cambio denominación, representacion, poderes, leyes vigente..docx",
+        "path": "CERTIFICACION personeria, cambio denominación, representacion, poderes, leyes vigente..docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION personeria, representacion, leyes, libros, para Comercio.docx",
+        "path": "CERTIFICACION personeria, representacion, leyes, libros, para Comercio.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Certificacion personeria y representacion y leyes.pdf",
+        "path": "Certificacion personeria y representacion y leyes.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "SATERIX S.A., CERTIFICACION PERSONERIA, REPRESENTACION, DOM.FISCAL Y CONSTITUIDO, PARA COMPAP.doc",
+        "path": "SATERIX S.A., CERTIFICACION PERSONERIA, REPRESENTACION, DOM.FISCAL Y CONSTITUIDO, PARA COMPAP.doc",
+        "error_flag": false
+      }
+    ],
+    "dgi": [
+      {
+        "customer": "AMURA ADVISORS INTERNATIONAL SA",
+        "filename": "Certif.Anual. DGI.pdf",
+        "path": "Certif.Anual. DGI.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificación personería y representación - nuevo directorio set 2023 - ACRISOUND S.A. - para DGI Y BPS.docx",
+        "path": "Certificación personería y representación - nuevo directorio set 2023 - ACRISOUND S.A. - para DGI Y BPS.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Formulario 0352 ACRISOUND SA Certificacion cambio Directorio, para BPS-DGI.pdf",
+        "path": "Formulario 0352 ACRISOUND SA Certificacion cambio Directorio, para BPS-DGI.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "CERTIFICADO DGI FRAINEL.pdf",
+        "path": "CERTIFICADO DGI FRAINEL.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "AMPLIACION CERTIFICACION. PARA BPS-DGI.docx",
+        "path": "AMPLIACION CERTIFICACION. PARA BPS-DGI.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION PERSONERIA Y REPRESENTACIÓN por Estatuto, para DGI.docx",
+        "path": "CERTIFICACION PERSONERIA Y REPRESENTACIÓN por Estatuto, para DGI.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "ERROR CERTIFICACION PERSONERIA Y REPRESENTACIÓN por Estatuto, para DGI.pages",
+        "path": "ERROR CERTIFICACION PERSONERIA Y REPRESENTACIÓN por Estatuto, para DGI.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "certificado NETKLA TRADING - DGI.doc",
+        "path": "certificado NETKLA TRADING - DGI.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.PERSONERIA, REPRESENTACIÓN, LEYES y OTROS, para DGI.doc",
+        "path": "CERTIF.PERSONERIA, REPRESENTACIÓN, LEYES y OTROS, para DGI.doc",
+        "error_flag": false
+      }
+    ],
+    "personeria_representacion_representacion": [],
+    "bps": [
+      {
+        "customer": "AMURA ADVISORS INTERNATIONAL SA",
+        "filename": "Certificado comun BPS.pdf",
+        "path": "Certificado comun BPS.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICADO BPS GIRTEC VTO 13 01 2021.pdf",
+        "path": "CERTIFICADO BPS GIRTEC VTO 13 01 2021.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Constancia Certif.Comun BPS.pdf",
+        "path": "Docs escaneados\\Constancia Certif.Comun BPS.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "NETKLA TRADING S.A. CERTIFICACION, personería completa, representación, leyes, facultades ante BPS.doc",
+        "path": "NETKLA TRADING S.A. CERTIFICACION, personería completa, representación, leyes, facultades ante BPS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "BPS - certificado unico vencimiento 6_2019.pdf",
+        "path": "Leasings\\Scotiabank\\BPS - certificado unico vencimiento 6_2019.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "ANCLAR SA. Certificado BPS.pdf",
+        "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\ANCLAR SA. Certificado BPS.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "certificado - Saterix S.A. (BPS).doc",
+        "path": "certificado - Saterix S.A. (BPS).doc",
+        "error_flag": false
+      }
+    ],
+    "firma_personeria_representacion_representacion": [],
+    "personeria": [
+      {
+        "customer": "Acrisound",
+        "filename": "ACRISOUND SA. Certificacion personeria, leyes 18930, 19484 y unica Accionista y beneficiario final.doc",
+        "path": "ACRISOUND SA. Certificacion personeria, leyes 18930, 19484 y unica Accionista y beneficiario final.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "ACRISOUND SA. Certificacion personeria, leyes 18930, 19484 y unica Accionista.doc",
+        "path": "ACRISOUND SA. Certificacion personeria, leyes 18930, 19484 y unica Accionista.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "ACRISOUND SA. Certificacion personeria, representación y leyes, complemento poder Brasil.doc",
+        "path": "ACRISOUND SA. Certificacion personeria, representación y leyes, complemento poder Brasil.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "ACRISOUND SA. Certificacion personeria, representación y leyes.doc",
+        "path": "ACRISOUND SA. Certificacion personeria, representación y leyes.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "ACRISOUND SA. Certificacion personeria, representación, poder general y leyes.doc",
+        "path": "ACRISOUND SA. Certificacion personeria, representación, poder general y leyes.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificacion personeria, leyes 18930 y 19484 y unica accionista.pdf",
+        "path": "Certificacion personeria, leyes 18930 y 19484 y unica accionista.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificado  personeria, representación y datos, para ABITAB.doc",
+        "path": "Certificado  personeria, representación y datos, para ABITAB.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Azili SA",
+        "filename": "Certificacion personeria, representación, leyes.doc",
+        "path": "Certificacion personeria, representación, leyes.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Azili SA",
+        "filename": "ERROR Certificacion personeria, representación, leyes.pages",
+        "path": "ERROR Certificacion personeria, representación, leyes.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Film Group",
+        "filename": "certificado personeria y vigencia Film Group.pdf",
+        "path": "certificado personeria y vigencia Film Group.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Film Group",
+        "filename": "FILM GROUP SA. Certificado de personeria y representación, legalizado.pdf",
+        "path": "FILM GROUP SA. Certificado de personeria y representación, legalizado.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES, para SBI Seguros.doc",
+        "path": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES, para SBI Seguros.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES, PODER CAROLINA.doc",
+        "path": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES, PODER CAROLINA.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "path": "GIRTEC S.A., CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Girtec",
+        "filename": "GIRTEC S.A., CERTIFICACION VIGENCIA, PERSONERIA, LEY 18930, PARA RUPE.doc",
+        "path": "GIRTEC S.A., CERTIFICACION VIGENCIA, PERSONERIA, LEY 18930, PARA RUPE.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Inversora Laredo",
+        "filename": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES,  DOMICILIOS Y ACCIONISTA.doc",
+        "path": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES,  DOMICILIOS Y ACCIONISTA.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Inversora Laredo",
+        "filename": "INVERSORA LAREDO SA. Certificado de personeria y representación, legalizado.pdf",
+        "path": "INVERSORA LAREDO SA. Certificado de personeria y representación, legalizado.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Inversora Rinlen SA",
+        "filename": "ERROR Inversora Rinlen SA. Certificado personeria, representación y leyes.pages",
+        "path": "ERROR Inversora Rinlen SA. Certificado personeria, representación y leyes.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Inversora Rinlen SA",
+        "filename": "Inversora Rinlen SA. Certificado personeria, representación y leyes.doc",
+        "path": "Inversora Rinlen SA. Certificado personeria, representación y leyes.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Mastershop",
+        "filename": "Certificación personeria, representación, leyes, giro, domicilios, para ABITAB.2024.doc",
+        "path": "Certificación personeria, representación, leyes, giro, domicilios, para ABITAB.2024.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Mastershop",
+        "filename": "ERROR Certificación personeria, representación, leyes, giro, domicilios, para ABITAB.2024.pages",
+        "path": "ERROR Certificación personeria, representación, leyes, giro, domicilios, para ABITAB.2024.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Melidan",
+        "filename": "CERTIFICACION DE PERSONERIA, REPRESENTACIÓN, SEDE Y LEYES. PARA UTE.doc",
+        "path": "CERTIFICACION DE PERSONERIA, REPRESENTACIÓN, SEDE Y LEYES. PARA UTE.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Melidan",
+        "filename": "ERROR CERTIFICACION DE PERSONERIA, REPRESENTACIÓN, SEDE Y LEYES. PARA UTE.pages",
+        "path": "ERROR CERTIFICACION DE PERSONERIA, REPRESENTACIÓN, SEDE Y LEYES. PARA UTE.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "CERTIFICACION personeria completa, objeto, representación, leyes, para RUPE.docx",
+        "path": "CERTIFICACION personeria completa, objeto, representación, leyes, para RUPE.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+        "filename": "Certificacion personeria, representación, Poderes y Revocaciones, Leyes.doc",
+        "path": "Certificacion personeria, representación, Poderes y Revocaciones, Leyes.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Nubegris SA",
+        "filename": "ERROR Nubegris SA. Certificado personeria, representación, leyes..pages",
+        "path": "ERROR Nubegris SA. Certificado personeria, representación, leyes..pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Nubegris SA",
+        "filename": "Nubegris SA. Certificado personeria, representación, leyes..doc",
+        "path": "Nubegris SA. Certificado personeria, representación, leyes..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "PISCUS SA",
+        "filename": "CERTIFICADO NOTARIAL PISCUS SA. PERSONERIA, REPRESENTACIÓN Y LEYES.docx",
+        "path": "CERTIFICADO NOTARIAL PISCUS SA. PERSONERIA, REPRESENTACIÓN Y LEYES.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF. PERSONERIA, REPRESENTACIÓN, LEYES, para IMC.doc",
+        "path": "CERTIF. PERSONERIA, REPRESENTACIÓN, LEYES, para IMC.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.PERSONERIA, REPRESENTACIÓN, LEYES y OTROS, para DIGEFE.doc",
+        "path": "CERTIF.PERSONERIA, REPRESENTACIÓN, LEYES y OTROS, para DIGEFE.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.PERSONERIA, REPRESENTACIÓN, LEYES y OTROS, para RUPE.doc",
+        "path": "CERTIF.PERSONERIA, REPRESENTACIÓN, LEYES y OTROS, para RUPE.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIF.PERSONERIA, REPRESENTACIÓN, LEYES y OTROS..doc",
+        "path": "CERTIF.PERSONERIA, REPRESENTACIÓN, LEYES y OTROS..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES. PODER CAROLINA BOMIO Y OTROS.doc",
+        "path": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES. PODER CAROLINA BOMIO Y OTROS.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "path": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, PODERES Y LEYES 17904, 18930 Y 19484..doc",
+        "path": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, PODERES Y LEYES 17904, 18930 Y 19484..doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "ERROR CERTIF. PERSONERIA, REPRESENTACIÓN, LEYES, para IMC.pages",
+        "path": "ERROR CERTIF. PERSONERIA, REPRESENTACIÓN, LEYES, para IMC.pages",
+        "error_flag": true
+      },
+      {
+        "customer": "Saterix",
+        "filename": "SATERIX S.A., CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES.docx",
+        "path": "SATERIX S.A., CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES.docx",
+        "error_flag": false
+      },
+      {
+        "customer": "Saterix",
+        "filename": "SATERIX S.A., CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "path": "SATERIX S.A., CERTIFICACION PERSONERIA, REPRESENTACIÓN, LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "CERTIFICACION DIEM, PERSONERIA, REPRESENTACIÓN, OBJETO, DOMICILIOS, LEYES. PARA URSEC.doc",
+        "path": "CERTIFICACION DIEM, PERSONERIA, REPRESENTACIÓN, OBJETO, DOMICILIOS, LEYES. PARA URSEC.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, PODER, DOMICILIOS, LEYES.doc",
+        "path": "CERTIFICACION PERSONERIA, REPRESENTACIÓN, PODER, DOMICILIOS, LEYES.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Service e Instalaciones (SEISA)",
+        "filename": "ERROR CERTIFICACION DIEM, PERSONERIA, REPRESENTACIÓN, OBJETO, DOMICILIOS, LEYES. PARA URSEC.pages",
+        "path": "ERROR CERTIFICACION DIEM, PERSONERIA, REPRESENTACIÓN, OBJETO, DOMICILIOS, LEYES. PARA URSEC.pages",
+        "error_flag": true
+      }
+    ],
+    "comercio": [
+      {
+        "customer": "Acrisound",
+        "filename": "Certif. Comercio legalizado.pdf",
+        "path": "Certif. Comercio legalizado.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "Certificado Reg.Comercio legalizado.pdf",
+        "path": "Certificado Reg.Comercio legalizado.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Acrisound",
+        "filename": "legalizacion de certificado de comercio.pdf",
+        "path": "legalizacion de certificado de comercio.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Frainel",
+        "filename": "CERTIFICACIONES LEYES 18930 Y 19484, PARA REGISTRO COMERCIO.doc",
+        "path": "CERTIFICACIONES LEYES 18930 Y 19484, PARA REGISTRO COMERCIO.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "Certificado Registro Comercio.pdf",
+        "path": "Certificado Registro Comercio.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIFICADO REPRESENTACIÓN Y LEY 18930, PARA REG.COMERCIO.doc",
+        "path": "CERTIFICADO REPRESENTACIÓN Y LEY 18930, PARA REG.COMERCIO.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "CERTIFICADO REPRESENTACIÓN Y LEYES 18930 Y 19484, PARA REG.COMERCIO.doc",
+        "path": "CERTIFICADO REPRESENTACIÓN Y LEYES 18930 Y 19484, PARA REG.COMERCIO.doc",
+        "error_flag": false
+      }
+    ],
+    "firma_firmas": [],
+    "registro": [
+      {
+        "customer": "Acrisound",
+        "filename": "certificado para levantar observacion del registro declaratoria 17904.docx",
+        "path": "certificado para levantar observacion del registro declaratoria 17904.docx",
+        "error_flag": false
+      }
+    ],
+    "firma_firmas_personeria_representacion_representacion": [],
+    "bcu": [
+      {
+        "customer": "Film Group",
+        "filename": "Certificado de Recepcion. BCU.pdf",
+        "path": "Comunicacion BCU 2023\\Certificado de Recepcion. BCU.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "Inversora Rinlen SA",
+        "filename": "Inv. Rinlen. certificado recepcion BCU.pdf",
+        "path": "Inv. Rinlen. certificado recepcion BCU.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "PISCUS SA",
+        "filename": "Comunicacion BCU. Certif.Recepcion y Form.B.pdf",
+        "path": "Comunicacion BCU. Certif.Recepcion y Form.B.pdf",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Scotiabank Uruguay S.A.- Certificado BCU.PDF",
+        "path": "Leasings\\Scotiabank\\Scotiabank Uruguay S.A.- Certificado BCU.PDF",
+        "error_flag": false
+      },
+      {
+        "customer": "SEA",
+        "filename": "Scotiabank Uruguay S.A.- Certificado BCU.pdf",
+        "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Scotiabank Uruguay S.A.- Certificado BCU.pdf",
+        "error_flag": false
+      }
+    ],
+    "firma_personeria": [],
+    "firma_representacion_representacion": [],
+    "zona_franca": [
+      {
+        "customer": "Netkla Trading",
+        "filename": "certificado NETKLA TRADING ZONA FRANCA 2.doc",
+        "path": "certificado NETKLA TRADING ZONA FRANCA 2.doc",
+        "error_flag": false
+      },
+      {
+        "customer": "Netkla Trading",
+        "filename": "certificado NETKLA TRADING ZONA FRANCA.doc",
+        "path": "certificado NETKLA TRADING ZONA FRANCA.doc",
+        "error_flag": false
+      }
+    ],
+    "firma_firmas_representacion_representacion": []
+  },
+  "non_certificate_documents": [
+    {
+      "customer": "AMURA ADVISORS INTERNATIONAL SA",
+      "filename": "Amura cert DGI.pdf",
+      "path": "Amura cert DGI.pdf"
+    },
+    {
+      "customer": "AMURA ADVISORS INTERNATIONAL SA",
+      "filename": "BCU Ley 19484 2022-08-30.pdf",
+      "path": "BCU Ley 19484 2022-08-30.pdf"
+    },
+    {
+      "customer": "AMURA ADVISORS INTERNATIONAL SA",
+      "filename": "cert. bps amura int zf (1).pdf",
+      "path": "cert. bps amura int zf (1).pdf"
+    },
+    {
+      "customer": "AMURA ADVISORS INTERNATIONAL SA",
+      "filename": "Comunicacion BCU AMURA 2025.pdf",
+      "path": "Comunicacion BCU AMURA 2025.pdf"
+    },
+    {
+      "customer": "AMURA ADVISORS INTERNATIONAL SA",
+      "filename": "EEFF AMURA INT.pdf",
+      "path": "EEFF AMURA INT.pdf"
+    },
+    {
+      "customer": "AMURA ADVISORS INTERNATIONAL SA",
+      "filename": "Estados Financieros.pdf",
+      "path": "Estados Financieros.pdf"
+    },
+    {
+      "customer": "AMURA ADVISORS INTERNATIONAL SA",
+      "filename": "Estatutos y publicaciones.pdf",
+      "path": "Estatutos y publicaciones.pdf"
+    },
+    {
+      "customer": "AMURA ADVISORS INTERNATIONAL SA",
+      "filename": "Notarial 2022-04 estatutos.pdf",
+      "path": "Notarial 2022-04 estatutos.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "ampliando para dgi.docx",
+      "path": "ampliando para dgi.docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Apostilla y legalización - Declaratoria, etc.pdf",
+      "path": "Apostilla y legalización - Declaratoria, etc.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "CARATULA RNC.pdf",
+      "path": "CARATULA RNC.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "caratula-registro-publico-general-comercio.pdf",
+      "path": "caratula-registro-publico-general-comercio.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Carta Poder a David Bravo, español.pdf",
+      "path": "Carta Poder a David Bravo, español.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Carta Poder VERNEUIL y HERVAS para España.pdf",
+      "path": "Carta Poder VERNEUIL y HERVAS para España.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "COMUNICACION BCU UBO FORM.B Y CERT.RECEPCION .pdf",
+      "path": "COMUNICACION BCU UBO FORM.B Y CERT.RECEPCION .pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Declaracion Jurada. Alvaro Acuña.pdf",
+      "path": "Declaracion Jurada. Alvaro Acuña.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Declaratoria 2016.pdf",
+      "path": "Declaratoria 2016.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "DECLARATORIA ACRISOUND - 5 set 2023.docx",
+      "path": "DECLARATORIA ACRISOUND - 5 set 2023.docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Declaratoria Acrisound 2016 (1).pdf",
+      "path": "Declaratoria Acrisound 2016 (1).pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Declaratoria ACRISOUND.pdf",
+      "path": "Declaratoria ACRISOUND.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Declaratoria año 2023, legalizada.pdf",
+      "path": "Declaratoria año 2023, legalizada.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "DECLARATORIA COMERCIO 2024.pdf",
+      "path": "DECLARATORIA COMERCIO 2024.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Declaratoria ley 17904 junio 2025 ACRISOUND SA ESCANER.pdf",
+      "path": "Declaratoria ley 17904 junio 2025 ACRISOUND SA ESCANER.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Estatuto 8-8-22.pdf",
+      "path": "Estatuto 8-8-22.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Información Registral RNC - ACRISUND SA - Solicitud_2842254_0.pdf",
+      "path": "Información Registral RNC - ACRISUND SA - Solicitud_2842254_0.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "legalizacion con error.pdf",
+      "path": "legalizacion con error.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "legalizacion de declaratoria acrisound.pdf",
+      "path": "legalizacion de declaratoria acrisound.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "mandato gral acrisound - schlinder.pdf",
+      "path": "mandato gral acrisound - schlinder.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "minuta Declaratoria 2023- RNC.pdf",
+      "path": "minuta Declaratoria 2023- RNC.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Minuta_soc.comerciales_ley_17904_oct2017.pdf",
+      "path": "Minuta_soc.comerciales_ley_17904_oct2017.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Notarial de accionista y beneficiario final, legalizado..pdf",
+      "path": "Notarial de accionista y beneficiario final, legalizado..pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "pago tasa inscripcion declaratoria  2023 ACRISOUND SA.pdf",
+      "path": "pago tasa inscripcion declaratoria  2023 ACRISOUND SA.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Pasaporte Rodrigo F Piza.pdf",
+      "path": "Pasaporte Rodrigo F Piza.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "PODER ESPECIAL ACRISOUND - BRAVO.doc",
+      "path": "PODER ESPECIAL ACRISOUND - BRAVO.doc"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "PODER ESPECIAL ACRISOUND - BRAVO2.doc",
+      "path": "PODER ESPECIAL ACRISOUND - BRAVO2.doc"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "PODER ESPECIAL ACRISOUND - VERNEUIL Y HERVAS.doc",
+      "path": "PODER ESPECIAL ACRISOUND - VERNEUIL Y HERVAS.doc"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "PODER ESPECIAL ACRISOUND - VERNEUIL Y HERVAS2.doc",
+      "path": "PODER ESPECIAL ACRISOUND - VERNEUIL Y HERVAS2.doc"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Poder Especial ACRISOUND para Brasil - NUEVO .docx",
+      "path": "Poder Especial ACRISOUND para Brasil - NUEVO .docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Poder Especial ACRISOUND para BRASIL.docx",
+      "path": "Poder Especial ACRISOUND para BRASIL.docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Poder especial de Acrisound a David Bravo 2022.docx",
+      "path": "Poder especial de Acrisound a David Bravo 2022.docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Poder Fernandez Piza a Joaquín - ABITAB.pdf",
+      "path": "Poder Fernandez Piza a Joaquín - ABITAB.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Poder para brasil.pdf",
+      "path": "Poder para brasil.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "PRIMER TESTIMONIO DE PROTOCOLIZACIÓN declaratoria acrisound 2023.docx",
+      "path": "PRIMER TESTIMONIO DE PROTOCOLIZACIÓN declaratoria acrisound 2023.docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Protocolizacion 2 (2024) Declaratoria acrisound 2023.docx",
+      "path": "Protocolizacion 2 (2024) Declaratoria acrisound 2023.docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "protocolizacion declaratoria ley 17904 junio 2025.docx",
+      "path": "protocolizacion declaratoria ley 17904 junio 2025.docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Solicitud_2507163_0.Comercio.pdf",
+      "path": "Solicitud_2507163_0.Comercio.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Tasa acrisound paga.jpg",
+      "path": "Tasa acrisound paga.jpg"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "carta poder acrisound legalizada y apostillada.pdf",
+      "path": "Documentos escaneados\\carta poder acrisound legalizada y apostillada.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "DNI FEDE SCHINDLER.pdf",
+      "path": "Documentos escaneados\\DNI FEDE SCHINDLER.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "CI Joyce Zylberberg.pdf",
+      "path": "PODER para Chile\\CI Joyce Zylberberg.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "CI TECh.pdf",
+      "path": "PODER para Chile\\CI TECh.pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "PODER ESPECIAL ACRISOUND A TATIANA EMDEN Y JOYCE ZYLBERBERG.doc",
+      "path": "PODER para Chile\\PODER ESPECIAL ACRISOUND A TATIANA EMDEN Y JOYCE ZYLBERBERG.doc"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Poder Especial Acrisound S.A..pdf",
+      "path": "PODER para Chile\\Poder Especial Acrisound S.A..pdf"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Poder obtención RUT (español) - CHILE.docx",
+      "path": "PODER para Chile\\Poder obtención RUT (español) - CHILE.docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "Ratificacion ACRISOUND.docx",
+      "path": "Ratificacion\\Ratificacion ACRISOUND.docx"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "RATIFICACION ACROSOUND.doc",
+      "path": "Ratificacion\\RATIFICACION ACROSOUND.doc"
+    },
+    {
+      "customer": "Acrisound",
+      "filename": "SUBSANACION ACRISOUND, S.A..doc",
+      "path": "Ratificacion\\SUBSANACION ACRISOUND, S.A..doc"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "(1) F150 (3).docx",
+      "path": "(1) F150 (3).docx"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "AA SRL Cert DGI 6905 Vto 31-10-25.pdf",
+      "path": "AA SRL Cert DGI 6905 Vto 31-10-25.pdf"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "AMURA ADVISORS DGI y BPS.pdf",
+      "path": "AMURA ADVISORS DGI y BPS.pdf"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "Amura Advisors Ltda., contrato social.doc",
+      "path": "Amura Advisors Ltda., contrato social.doc"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "Anexo Minuta Comercio. Objeto.doc",
+      "path": "Anexo Minuta Comercio. Objeto.doc"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "Cert BPS Amura SRL Vto 03-05-2025.pdf",
+      "path": "Cert BPS Amura SRL Vto 03-05-2025.pdf"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "Contrato inscripto y Declaratoria - AMURA.pdf",
+      "path": "Contrato inscripto y Declaratoria - AMURA.pdf"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "DECLARATORIA, RECTIFICACION CONTRATO.doc",
+      "path": "DECLARATORIA, RECTIFICACION CONTRATO.doc"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "Domicilio fiscal y constituido.doc",
+      "path": "Domicilio fiscal y constituido.doc"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "EEFF 2024 Amura Advisors SRL.pdf",
+      "path": "EEFF 2024 Amura Advisors SRL.pdf"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "Gas 2019 06.pdf",
+      "path": "Gas 2019 06.pdf"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "Minuta_sociedades_2016.pdf",
+      "path": "Minuta_sociedades_2016.pdf"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "Publicacion DO.pdf",
+      "path": "Publicacion DO.pdf"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "Publicacion Judicial al Dia.pdf",
+      "path": "Publicacion Judicial al Dia.pdf"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "PUBLICACION SRL EXTRACTO.docx",
+      "path": "PUBLICACION SRL EXTRACTO.docx"
+    },
+    {
+      "customer": "Amura Advisors Ltda",
+      "filename": "RUT.pdf",
+      "path": "RUT.pdf"
+    },
+    {
+      "customer": "Azili SA",
+      "filename": "BCU AZILI S.A. 2018.06 DDJJ Acuse BCU.pdf",
+      "path": "BCU AZILI S.A. 2018.06 DDJJ Acuse BCU.pdf"
+    },
+    {
+      "customer": "Azili SA",
+      "filename": "BCU AZILI S.A. 2018.06 DDJJ.pdf",
+      "path": "BCU AZILI S.A. 2018.06 DDJJ.pdf"
+    },
+    {
+      "customer": "Azili SA",
+      "filename": "Declaratoria 17.904.pdf",
+      "path": "Declaratoria 17.904.pdf"
+    },
+    {
+      "customer": "Azili SA",
+      "filename": "Estatuto Azili S.A..pdf",
+      "path": "Estatuto Azili S.A..pdf"
+    },
+    {
+      "customer": "Azili SA",
+      "filename": "factura_9148035_PDF DGI (1).pdf",
+      "path": "factura_9148035_PDF DGI (1).pdf"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "6906.pdf",
+      "path": "6906.pdf"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "BARRADAS PRO SAS.pdf",
+      "path": "BARRADAS PRO SAS.pdf"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "BARRADAS PRO SAS_firmado.pdf",
+      "path": "BARRADAS PRO SAS_firmado.pdf"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "Consulta de Tramite. Observacion Comercio.pdf",
+      "path": "Consulta de Tramite. Observacion Comercio.pdf"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "CONSULTA INSCRIPCION EN REGISTRO.pdf",
+      "path": "CONSULTA INSCRIPCION EN REGISTRO.pdf"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "rut.pdf",
+      "path": "rut.pdf"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "PHOTO-2025-04-22-09-57-45.jpg",
+      "path": "barradasprosas\\PHOTO-2025-04-22-09-57-45.jpg"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "PHOTO-2025-04-22-09-57-45_1.jpg",
+      "path": "barradasprosas\\PHOTO-2025-04-22-09-57-45_1.jpg"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "PHOTO-2025-04-22-09-57-46.jpg",
+      "path": "barradasprosas\\PHOTO-2025-04-22-09-57-46.jpg"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "PHOTO-2025-04-22-09-57-47.jpg",
+      "path": "barradasprosas\\PHOTO-2025-04-22-09-57-47.jpg"
+    },
+    {
+      "customer": "BARRADAS PRO S.A.S",
+      "filename": "PHOTO-2025-04-22-09-57-47_1.jpg",
+      "path": "barradasprosas\\PHOTO-2025-04-22-09-57-47_1.jpg"
+    },
+    {
+      "customer": "CCC",
+      "filename": "CCC Transformación SA.pdf",
+      "path": "CCC Transformación SA.pdf"
+    },
+    {
+      "customer": "CCC",
+      "filename": "declatatoria CCC.pdf",
+      "path": "declatatoria CCC.pdf"
+    },
+    {
+      "customer": "CCC",
+      "filename": "declaracion-registro-participaciones-212869610011-20180531-Firmado.efs",
+      "path": "Comunicacion BCU\\declaracion-registro-participaciones-212869610011-20180531-Firmado.efs"
+    },
+    {
+      "customer": "CCC",
+      "filename": "declaracion-registro-participaciones-212869610011-20180531.xml",
+      "path": "Comunicacion BCU\\declaracion-registro-participaciones-212869610011-20180531.xml"
+    },
+    {
+      "customer": "CCC",
+      "filename": "declaracion-registro-participaciones-212869610011-20180531.zip",
+      "path": "Comunicacion BCU\\declaracion-registro-participaciones-212869610011-20180531.zip"
+    },
+    {
+      "customer": "CCC",
+      "filename": "declaracion-registro-participaciones-212869610011-20180601-Firmado.efs",
+      "path": "Comunicacion BCU\\declaracion-registro-participaciones-212869610011-20180601-Firmado.efs"
+    },
+    {
+      "customer": "CCC",
+      "filename": "declaracion-registro-participaciones-212869610011-20180601.xml",
+      "path": "Comunicacion BCU\\declaracion-registro-participaciones-212869610011-20180601.xml"
+    },
+    {
+      "customer": "CCC",
+      "filename": "declaracion-registro-participaciones-212869610011-20180601.zip",
+      "path": "Comunicacion BCU\\declaracion-registro-participaciones-212869610011-20180601.zip"
+    },
+    {
+      "customer": "CCC",
+      "filename": "IDI - Información de Instituciones.pdf",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones.pdf"
+    },
+    {
+      "customer": "CCC Machinery",
+      "filename": "Contrato Social CCC Machinery Uruguay Ltda..pdf",
+      "path": "Contrato Social CCC Machinery Uruguay Ltda..pdf"
+    },
+    {
+      "customer": "CCC Machinery",
+      "filename": "Contrato social CCC modificado 12-2016 completo.pdf",
+      "path": "Contrato social CCC modificado 12-2016 completo.pdf"
+    },
+    {
+      "customer": "CCC Machinery",
+      "filename": "publicacion CCC Machinery.png",
+      "path": "publicacion CCC Machinery.png"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "BCU 19484 Datylco Presentación.pdf",
+      "path": "BCU 19484 Datylco Presentación.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "Constancia anual DGI.pdf",
+      "path": "Constancia anual DGI.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "CUD Datylco Vto. 28-12-2023.pdf",
+      "path": "CUD Datylco Vto. 28-12-2023.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "Cédula Identidad Carolina Olaso.pdf",
+      "path": "Cédula Identidad Carolina Olaso.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "Datylco BCU Ley 18.930 Presentación.pdf",
+      "path": "Datylco BCU Ley 18.930 Presentación.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "Datylco Poder Nuevo 15-08-2018.pdf",
+      "path": "Datylco Poder Nuevo 15-08-2018.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "Declaratoria Datylco.pdf",
+      "path": "Declaratoria Datylco.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "DJ Patrimonio, 11.2022.pdf",
+      "path": "DJ Patrimonio, 11.2022.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "Especiales San Nicolás Etapa 7.pdf",
+      "path": "Especiales San Nicolás Etapa 7.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "Estatuto Datylco Original.zip",
+      "path": "Estatuto Datylco Original.zip"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "Nicolás Delafond Cédula de Identidad.pdf",
+      "path": "Nicolás Delafond Cédula de Identidad.pdf"
+    },
+    {
+      "customer": "DATYLCO",
+      "filename": "RV_ DGI - Uruguay _ Resultado.eml",
+      "path": "RV_ DGI - Uruguay _ Resultado.eml"
+    },
+    {
+      "customer": "Dogs club",
+      "filename": "arentidadconsultaweb.pdf",
+      "path": "arentidadconsultaweb.pdf"
+    },
+    {
+      "customer": "Dogs club",
+      "filename": "Contrato con publ. Dogs club.pdf",
+      "path": "Contrato con publ. Dogs club.pdf"
+    },
+    {
+      "customer": "Dogs club",
+      "filename": "Scan_20250129_131707.pdf",
+      "path": "Scan_20250129_131707.pdf"
+    },
+    {
+      "customer": "FVT Consulting",
+      "filename": "cert bps vto 13-12-2020.pdf",
+      "path": "cert bps vto 13-12-2020.pdf"
+    },
+    {
+      "customer": "FVT Consulting",
+      "filename": "contrato  social FVT Consulting Srl.pdf",
+      "path": "contrato  social FVT Consulting Srl.pdf"
+    },
+    {
+      "customer": "FVT Consulting",
+      "filename": "CUD.PDF",
+      "path": "CUD.PDF"
+    },
+    {
+      "customer": "FVT Consulting",
+      "filename": "FABIAN. C.I. ANVERSO.jpg",
+      "path": "FABIAN. C.I. ANVERSO.jpg"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "Apostilla y legalización - Declaratoria Ley 17.904.pdf",
+      "path": "Apostilla y legalización - Declaratoria Ley 17.904.pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "Apostilla y legalización - Estatuto, aprobación, publicaciones, etc.pdf",
+      "path": "Apostilla y legalización - Estatuto, aprobación, publicaciones, etc.pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "Apostilla y legalización - Leyes 19.484 y 18.930.pdf",
+      "path": "Apostilla y legalización - Leyes 19.484 y 18.930.pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "Declaratoria Film Group S.A. inscripta en Comercio.pdf",
+      "path": "Declaratoria Film Group S.A. inscripta en Comercio.pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "Declaratoria FILM GROUP S.A..pdf",
+      "path": "Declaratoria FILM GROUP S.A..pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "FILM_GROUP_ESTATUTO7342960.pdf",
+      "path": "FILM_GROUP_ESTATUTO7342960.pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "Formulario DGI - Legalizado.pdf",
+      "path": "Formulario DGI - Legalizado.pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "PODER DEL EXTRANJERO, FILM GROUP SA , Primer Testimonio.pdf",
+      "path": "PODER DEL EXTRANJERO, FILM GROUP SA , Primer Testimonio.pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "PODER GENERAL. Film Group SA a Calogero Carlino y Sergio Nugoli.docx",
+      "path": "PODER GENERAL. Film Group SA a Calogero Carlino y Sergio Nugoli.docx"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "PUBLICACION_IMPO_-_FILM_GROUP_SA7036806.pdf",
+      "path": "PUBLICACION_IMPO_-_FILM_GROUP_SA7036806.pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "RUT FILM GROUP .pdf",
+      "path": "RUT FILM GROUP .pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "TARJETA_DE_RUT_FILM_GROUP_SA_EN_FORMACION438371.pdf",
+      "path": "TARJETA_DE_RUT_FILM_GROUP_SA_EN_FORMACION438371.pdf"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "declaracion-registro-participaciones-219226520017-20230927-Firmado.efs",
+      "path": "Comunicacion BCU 2023\\declaracion-registro-participaciones-219226520017-20230927-Firmado.efs"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "declaracion-registro-participaciones-219226520017-20230927.xml",
+      "path": "Comunicacion BCU 2023\\declaracion-registro-participaciones-219226520017-20230927.xml"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "declaracion-registro-participaciones-219226520017-20230927.zip",
+      "path": "Comunicacion BCU 2023\\declaracion-registro-participaciones-219226520017-20230927.zip"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "Formulario B, BCU, año 2023.doc",
+      "path": "Comunicacion BCU 2023\\Formulario B, BCU, año 2023.doc"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "declaracion-registro-participaciones-219226520017-20221024-Firmado.efs",
+      "path": "Comunicacion BCU, año 2022\\declaracion-registro-participaciones-219226520017-20221024-Firmado.efs"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "declaracion-registro-participaciones-219226520017-20221024.xml",
+      "path": "Comunicacion BCU, año 2022\\declaracion-registro-participaciones-219226520017-20221024.xml"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "declaracion-registro-participaciones-219226520017-20221024.zip",
+      "path": "Comunicacion BCU, año 2022\\declaracion-registro-participaciones-219226520017-20221024.zip"
+    },
+    {
+      "customer": "Film Group",
+      "filename": "Formulario B2, BCU.doc",
+      "path": "Comunicacion BCU, año 2022\\Formulario B2, BCU.doc"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "Anexo form.352.pdf",
+      "path": "Anexo form.352.pdf"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "constancia inscripcion dgi RUT frainel.pdf",
+      "path": "constancia inscripcion dgi RUT frainel.pdf"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "constancia inscripcion dgi RUT frainel2.pdf",
+      "path": "constancia inscripcion dgi RUT frainel2.pdf"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "Copia de poder general - Frainel SA a Eduardo Bomio y Veronica Charlone.doc",
+      "path": "Copia de poder general - Frainel SA a Eduardo Bomio y Veronica Charlone.doc"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "Declaratoria 17904 FRAINEL.pdf",
+      "path": "Declaratoria 17904 FRAINEL.pdf"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "DECLARATORIA FRAINEL S.A..doc",
+      "path": "DECLARATORIA FRAINEL S.A..doc"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "DECLARATORIA FRAINEL vieja.pdf",
+      "path": "DECLARATORIA FRAINEL vieja.pdf"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "FORM. 0351BPS.pdf",
+      "path": "FORM. 0351BPS.pdf"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "Frainel 18930.pdf",
+      "path": "Frainel 18930.pdf"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "min soc com ley 17904, FRAINEL SA.pdf",
+      "path": "min soc com ley 17904, FRAINEL SA.pdf"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "declaracion-registro-participaciones-213242440015-20170928-Firmado.efs",
+      "path": "Comunicacion BCU\\declaracion-registro-participaciones-213242440015-20170928-Firmado.efs"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "declaracion-registro-participaciones-213242440015-20170928.xml",
+      "path": "Comunicacion BCU\\declaracion-registro-participaciones-213242440015-20170928.xml"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "declaracion-registro-participaciones-213242440015-20170928.zip",
+      "path": "Comunicacion BCU\\declaracion-registro-participaciones-213242440015-20170928.zip"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "IDI - Información de Instituciones.html",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones.html"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "BCUheader.jpg",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\BCUheader.jpg"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "buttonINFO-1.jpg",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\buttonINFO-1.jpg"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "buttonMAIL-1.jpg",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\buttonMAIL-1.jpg"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "buttonUSER-2.jpg",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\buttonUSER-2.jpg"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "footerLEFT.jpg",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\footerLEFT.jpg"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "footerRIGHT.jpg",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\footerRIGHT.jpg"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "header.css",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\header.css"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "header.html",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\header.html"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "menu.js.descarga",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\menu.js.descarga"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "nojs.css",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\nojs.css"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "ppal.css",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\ppal.css"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "side.css",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\side.css"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "side.html",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\side.html"
+    },
+    {
+      "customer": "Frainel",
+      "filename": "welcome.html",
+      "path": "Comunicacion BCU\\IDI - Información de Instituciones_files\\welcome.html"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Acta de Girtec S.A.pdf",
+      "path": "Acta de Girtec S.A.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "CANCELACION LEASING CON SANTANDER, camioneta GWM Fede.doc",
+      "path": "CANCELACION LEASING CON SANTANDER, camioneta GWM Fede.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Carta poder a Juan Albano, transferencia municipal GWM de Fede.doc",
+      "path": "Carta poder a Juan Albano, transferencia municipal GWM de Fede.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "CARTA PODER IMC. A FAVOR DE ALEXANDRA FERRARI.doc",
+      "path": "CARTA PODER IMC. A FAVOR DE ALEXANDRA FERRARI.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "CARTA PODER PARA BROU.doc",
+      "path": "CARTA PODER PARA BROU.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "CARTA PODER PARA CIRCULAR. GWM Wingle 5, a favor de Federico, Caro y otros.doc",
+      "path": "CARTA PODER PARA CIRCULAR. GWM Wingle 5, a favor de Federico, Caro y otros.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "CCF09032018_00003.pdf",
+      "path": "CCF09032018_00003.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "cert. GIRTEC y BANCO SANTANDER.doc",
+      "path": "cert. GIRTEC y BANCO SANTANDER.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "constancia.pdf",
+      "path": "constancia.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Contrato de Representacion - Girtec con ARJ.doc",
+      "path": "Contrato de Representacion - Girtec con ARJ.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Contrato de Servicios y asistencia- Girtec con ARJ.doc",
+      "path": "Contrato de Servicios y asistencia- Girtec con ARJ.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "CUD Canelones.pdf",
+      "path": "CUD Canelones.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "declaratoria Girtec.pdf",
+      "path": "declaratoria Girtec.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "DECLARATORIA. Testimonio.pdf",
+      "path": "DECLARATORIA. Testimonio.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "DECLARATORIA.pdf",
+      "path": "DECLARATORIA.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Distribution Agreement - CTI   GIRTEC (12 3 09) 2.doc",
+      "path": "Distribution Agreement - CTI   GIRTEC (12 3 09) 2.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Distribution Agreement - CTI   GIRTEC (12 3 09).doc",
+      "path": "Distribution Agreement - CTI   GIRTEC (12 3 09).doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Distribution Agreement - Dehoo - Girtec (12 3 09) 2.doc",
+      "path": "Distribution Agreement - Dehoo - Girtec (12 3 09) 2.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Distribution Agreement - Dehoo - Girtec (12 3 09).doc",
+      "path": "Distribution Agreement - Dehoo - Girtec (12 3 09).doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Distribution Agreement - DEXIN - Girtec (12 3 09).doc",
+      "path": "Distribution Agreement - DEXIN - Girtec (12 3 09).doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Estatuto GIRTEC.pdf",
+      "path": "Estatuto GIRTEC.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "GIRTEC - todo.pdf",
+      "path": "GIRTEC - todo.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "GIRTEC S.A., CARTA PODER PARA TRANSFERENCIA IMC.docx",
+      "path": "GIRTEC S.A., CARTA PODER PARA TRANSFERENCIA IMC.docx"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "GIRTEC S.A., NOTARIAL PARA OBS.REGISTRO POR SURIL SA.doc",
+      "path": "GIRTEC S.A., NOTARIAL PARA OBS.REGISTRO POR SURIL SA.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "GIRTEC Venta y Cancelación de Leasing 2.doc",
+      "path": "GIRTEC Venta y Cancelación de Leasing 2.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "GIRTEC Venta y Cancelación de Leasing copia.doc",
+      "path": "GIRTEC Venta y Cancelación de Leasing copia.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "GIRTEC Venta y Cancelación de Leasing.doc",
+      "path": "GIRTEC Venta y Cancelación de Leasing.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Girtec.pdf",
+      "path": "Girtec.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Ministerio.pdf",
+      "path": "Ministerio.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Minuta Revocación generica de poderes.pdf",
+      "path": "Minuta Revocación generica de poderes.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "PODER GENERAL - GIRTEC SA a CAROLINA BOMIO.doc",
+      "path": "PODER GENERAL - GIRTEC SA a CAROLINA BOMIO.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "PODER GENERAL - GIRTEC SA a CAROLINA BOMIO1.doc",
+      "path": "PODER GENERAL - GIRTEC SA a CAROLINA BOMIO1.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "PODER GENERAL - GIRTEC SA a VERONICA CHARLONE (2).doc",
+      "path": "PODER GENERAL - GIRTEC SA a VERONICA CHARLONE (2).doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "PODER GENERAL - GIRTEC SA a VERONICA CHARLONE.doc",
+      "path": "PODER GENERAL - GIRTEC SA a VERONICA CHARLONE.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "PODER PARA PLEITOS - GIRTEC SA a Cristina Olaso y otros.doc",
+      "path": "PODER PARA PLEITOS - GIRTEC SA a Cristina Olaso y otros.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Preliminary Agreement - DEXIN - GIRTEC version1.doc",
+      "path": "Preliminary Agreement - DEXIN - GIRTEC version1.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Publicacion.pdf",
+      "path": "Publicacion.pdf"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "RE Status PODERES - GIRTEC y SEA.msg",
+      "path": "RE Status PODERES - GIRTEC y SEA.msg"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Revocación genérica de Poderes. GIRTEC.docx",
+      "path": "Revocación genérica de Poderes. GIRTEC.docx"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "Revocación genérica de Poderes.docx",
+      "path": "Revocación genérica de Poderes.docx"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "REVOCACIÓN DE PODER GENERAL DE ADMINISTRACION A MARCELO AUGUSTO CAROLA FERRARA.doc",
+      "path": "REVOCACIÓN DE PODER GENERAL DE ADMINISTRACION A MARCELO AUGUSTO CAROLA FERRARA.doc"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "declaracion-registro-participaciones-214249090018-20180525 bis-Firmado.efs",
+      "path": "COMUNICACION BCU. LEY 19484\\declaracion-registro-participaciones-214249090018-20180525 bis-Firmado.efs"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "declaracion-registro-participaciones-214249090018-20180525 bis.xml",
+      "path": "COMUNICACION BCU. LEY 19484\\declaracion-registro-participaciones-214249090018-20180525 bis.xml"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "declaracion-registro-participaciones-214249090018-20180525 bis.zip",
+      "path": "COMUNICACION BCU. LEY 19484\\declaracion-registro-participaciones-214249090018-20180525 bis.zip"
+    },
+    {
+      "customer": "Girtec",
+      "filename": "IDI - Información de Instituciones.pdf",
+      "path": "COMUNICACION BCU. LEY 19484\\IDI - Información de Instituciones.pdf"
+    },
+    {
+      "customer": "Ingatel",
+      "filename": "Cert INGATEL S.A..docx",
+      "path": "Cert INGATEL S.A..docx"
+    },
+    {
+      "customer": "Ingatel",
+      "filename": "DECLARACION JURADA. PARA AYAX SA.doc",
+      "path": "DECLARACION JURADA. PARA AYAX SA.doc"
+    },
+    {
+      "customer": "Ingatel",
+      "filename": "Formulario 6906. DGI.pdf",
+      "path": "Formulario 6906. DGI.pdf"
+    },
+    {
+      "customer": "Ingatel",
+      "filename": "Ingatel SA Estatuto y publicaciones.pdf",
+      "path": "Ingatel SA Estatuto y publicaciones.pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "Ampliacion notarial CGN.doc.docx",
+      "path": "Ampliacion notarial CGN.doc.docx"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "BCU Laredo 2018.06.pdf",
+      "path": "BCU Laredo 2018.06.pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "Comunicación BCU (escaneada).pdf",
+      "path": "Comunicación BCU (escaneada).pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "Declaratoria (escaneada).pdf",
+      "path": "Declaratoria (escaneada).pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "Declaratoria Beneficiario Final LDO BCU 2018.05.pdf",
+      "path": "Declaratoria Beneficiario Final LDO BCU 2018.05.pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "Declaratoria Inv. Laredo S.A..pdf",
+      "path": "Declaratoria Inv. Laredo S.A..pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "DGI, constancia 6906.pdf",
+      "path": "DGI, constancia 6906.pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "DGI, constancia 6951, RUT.pdf",
+      "path": "DGI, constancia 6951, RUT.pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "Estatuto con Publicaciones Inversora Laredo.pdf",
+      "path": "Estatuto con Publicaciones Inversora Laredo.pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "Estatutos legalizados (escaneado).pdf",
+      "path": "Estatutos legalizados (escaneado).pdf"
+    },
+    {
+      "customer": "Inversora Laredo",
+      "filename": "Formulario DGI - legalizado.pdf",
+      "path": "Formulario DGI - legalizado.pdf"
+    },
+    {
+      "customer": "Litamex",
+      "filename": "estatuto y publicaciones Litamex.tif",
+      "path": "estatuto y publicaciones Litamex.tif"
+    },
+    {
+      "customer": "Litamex",
+      "filename": "Litamex - estatuto y publicaciones.tif",
+      "path": "Litamex - estatuto y publicaciones.tif"
+    },
+    {
+      "customer": "Litamex",
+      "filename": "Litamex Declaratoria 13.12.2017.pdf",
+      "path": "Litamex Declaratoria 13.12.2017.pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "acta aceptacion de cargo.pdf",
+      "path": "acta aceptacion de cargo.pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "Aumento de Capital Contractual 31.01.22.pdf",
+      "path": "Aumento de Capital Contractual 31.01.22.pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "BPS Comun MASTERSHOP.pdf",
+      "path": "BPS Comun MASTERSHOP.pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "CI Juan Andres Flores nueva (1).pdf",
+      "path": "CI Juan Andres Flores nueva (1).pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "CUD MASTRESHOP, Edificio My Palermo.pdf",
+      "path": "CUD MASTRESHOP, Edificio My Palermo.pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "Declaratoria 17904 MASTERSHOP.pdf",
+      "path": "Declaratoria 17904 MASTERSHOP.pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "Estatutos MASTERSHOP S.A..pdf",
+      "path": "Estatutos MASTERSHOP S.A..pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "F1050v01 MASTERSHOP al 31.05.2023 (1).pdf",
+      "path": "F1050v01 MASTERSHOP al 31.05.2023 (1).pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "Form 6361 Info Gral.pdf",
+      "path": "Form 6361 Info Gral.pdf"
+    },
+    {
+      "customer": "Mastershop",
+      "filename": "IDI - Información de Instituciones.pdf",
+      "path": "IDI - Información de Instituciones.pdf"
+    },
+    {
+      "customer": "Melidan",
+      "filename": "Comunicación Melidan S.A..PDF",
+      "path": "Comunicación Melidan S.A..PDF"
+    },
+    {
+      "customer": "Melidan",
+      "filename": "Declaratoria - Melidan S.A..PDF",
+      "path": "Declaratoria - Melidan S.A..PDF"
+    },
+    {
+      "customer": "Melidan",
+      "filename": "Estatuto con publicaciones.pdf",
+      "path": "Estatuto con publicaciones.pdf"
+    },
+    {
+      "customer": "Mercefar",
+      "filename": "Comunicacion BCU - Mercefar S.A..pdf",
+      "path": "Comunicacion BCU - Mercefar S.A..pdf"
+    },
+    {
+      "customer": "Mercefar",
+      "filename": "Declaratoria Mercefar S.A..pdf",
+      "path": "Declaratoria Mercefar S.A..pdf"
+    },
+    {
+      "customer": "Mercefar",
+      "filename": "Estatuto Mercefar SA.pdf",
+      "path": "Estatuto Mercefar SA.pdf"
+    },
+    {
+      "customer": "Mercefar",
+      "filename": "Mercefar S.A. form B.pdf",
+      "path": "Mercefar S.A. form B.pdf"
+    },
+    {
+      "customer": "Mercefar",
+      "filename": "oentidadconsultaweb (1).pdf",
+      "path": "oentidadconsultaweb (1).pdf"
+    },
+    {
+      "customer": "Mercefar",
+      "filename": "reporte (1).pdf",
+      "path": "reporte (1).pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Ampliacion notarial, vigencia datos. para Scotiabank.doc",
+      "path": "Ampliacion notarial, vigencia datos. para Scotiabank.doc"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "CONTROL LEY 17904.docx",
+      "path": "CONTROL LEY 17904.docx"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Control leyes 18930 y 19484, para Registro comercio.docx",
+      "path": "Control leyes 18930 y 19484, para Registro comercio.docx"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "CONTROL LEYES 18930 Y 19484.docx",
+      "path": "CONTROL LEYES 18930 Y 19484.docx"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "DECLARATORIA (LEY 17904). ACTA DEL 26.07.2018.doc",
+      "path": "DECLARATORIA (LEY 17904). ACTA DEL 26.07.2018.doc"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Formulario B. Definitivo.doc",
+      "path": "Formulario B. Definitivo.doc"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Formulario+5202.pdf",
+      "path": "Formulario+5202.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Nexlog, notarial personeria y representacion x Estatuto.pdf",
+      "path": "Nexlog, notarial personeria y representacion x Estatuto.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "declaracion-registro-participaciones-217380130014-20190823-Firmado.efs",
+      "path": "COMUNICACION BCU. 2019\\declaracion-registro-participaciones-217380130014-20190823-Firmado.efs"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "declaracion-registro-participaciones-217380130014-20190823.xml",
+      "path": "COMUNICACION BCU. 2019\\declaracion-registro-participaciones-217380130014-20190823.xml"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "declaracion-registro-participaciones-217380130014-20190823.zip",
+      "path": "COMUNICACION BCU. 2019\\declaracion-registro-participaciones-217380130014-20190823.zip"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Formulario B. Definitivo.doc",
+      "path": "COMUNICACION BCU. 2019\\Formulario B. Definitivo.doc"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "declaracion-registro-participaciones-217380130014-20180925-Firmado.efs",
+      "path": "Comunicación BCU\\declaracion-registro-participaciones-217380130014-20180925-Firmado.efs"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "declaracion-registro-participaciones-217380130014-20180925.xml",
+      "path": "Comunicación BCU\\declaracion-registro-participaciones-217380130014-20180925.xml"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "declaracion-registro-participaciones-217380130014-20180925.zip",
+      "path": "Comunicación BCU\\declaracion-registro-participaciones-217380130014-20180925.zip"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "FORMULARIO A. LEY 18930.doc",
+      "path": "Comunicación BCU\\FORMULARIO A. LEY 18930.doc"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "FORMULARIO B.doc",
+      "path": "Comunicación BCU\\FORMULARIO B.doc"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "IDI - Información de Instituciones.html",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones.html"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "BCUheader.jpg",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\BCUheader.jpg"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "buttonINFO-1.jpg",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\buttonINFO-1.jpg"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "buttonMAIL-1.jpg",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\buttonMAIL-1.jpg"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "buttonUSER-2.jpg",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\buttonUSER-2.jpg"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "footerLEFT.jpg",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\footerLEFT.jpg"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "footerRIGHT.jpg",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\footerRIGHT.jpg"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "header.css",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\header.css"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "header.html",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\header.html"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "menu.js.descarga",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\menu.js.descarga"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "nojs.css",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\nojs.css"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "ppal.css",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\ppal.css"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "side.css",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\side.css"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "side.html",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\side.html"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "welcome.html",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones_files\\welcome.html"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Actas directorio y asamblea nuevo presidente.pdf",
+      "path": "Docs escaneados\\Actas directorio y asamblea nuevo presidente.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Anexo form.352 bps dgi. Baja Poder IVAN.pdf",
+      "path": "Docs escaneados\\Anexo form.352 bps dgi. Baja Poder IVAN.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Anexo form.352 bps dgi. Poder Claudio Fernandez.pdf",
+      "path": "Docs escaneados\\Anexo form.352 bps dgi. Poder Claudio Fernandez.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "ardupwebentidadconstancia (1) (3).pdf",
+      "path": "Docs escaneados\\ardupwebentidadconstancia (1) (3).pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "ardupwebentidadconstancia (1).pdf",
+      "path": "Docs escaneados\\ardupwebentidadconstancia (1).pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "arentidadconsultaweb (1).pdf",
+      "path": "Docs escaneados\\arentidadconsultaweb (1).pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "arentidadconsultaweb (1.pdf",
+      "path": "Docs escaneados\\arentidadconsultaweb (1.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Baja en DGI poder IVAN y datos actualizados.pdf",
+      "path": "Docs escaneados\\Baja en DGI poder IVAN y datos actualizados.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "C.I. Ivan Goloubintseff.pdf",
+      "path": "Docs escaneados\\C.I. Ivan Goloubintseff.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Carta de Pateric SA, traducida del portugues.pdf",
+      "path": "Docs escaneados\\Carta de Pateric SA, traducida del portugues.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Cedula Gonzalo Munoz.JPG",
+      "path": "Docs escaneados\\Cedula Gonzalo Munoz.JPG"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Copia de Formularios 6351 y 6361.pdf",
+      "path": "Docs escaneados\\Copia de Formularios 6351 y 6361.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Copia de Poder NEXLOG a RAMELA.pdf",
+      "path": "Docs escaneados\\Copia de Poder NEXLOG a RAMELA.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "DECLARATORIA L.17904. JESPER SA.pdf",
+      "path": "Docs escaneados\\DECLARATORIA L.17904. JESPER SA.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "DNI Claudio Fernandez.pdf",
+      "path": "Docs escaneados\\DNI Claudio Fernandez.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "ESTATUTO completo, con publicaciones.pdf",
+      "path": "Docs escaneados\\ESTATUTO completo, con publicaciones.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Estatuto con reforma.pdf",
+      "path": "Docs escaneados\\Estatuto con reforma.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Factura 1083.pdf",
+      "path": "Docs escaneados\\Factura 1083.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Factura 1155 Y 1156.pdf",
+      "path": "Docs escaneados\\Factura 1155 Y 1156.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Factura 1155 Y 1157.pdf",
+      "path": "Docs escaneados\\Factura 1155 Y 1157.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "FACTURA 1217.pdf",
+      "path": "Docs escaneados\\FACTURA 1217.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Factura 941.pdf",
+      "path": "Docs escaneados\\Factura 941.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Factura 984.pdf",
+      "path": "Docs escaneados\\Factura 984.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "FACTURAS 960 Y 961.pdf",
+      "path": "Docs escaneados\\FACTURAS 960 Y 961.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Facturas.pdf",
+      "path": "Docs escaneados\\Facturas.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "FORM. 0351. BPS,DGI. Cambio denominación y domicilio. 2019.pdf",
+      "path": "Docs escaneados\\FORM. 0351. BPS,DGI. Cambio denominación y domicilio. 2019.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "FORM. 0351. BPSDGI. Datos contacto de domicilio fiscal.pdf",
+      "path": "Docs escaneados\\FORM. 0351. BPSDGI. Datos contacto de domicilio fiscal.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Formulario 352.pdf",
+      "path": "Docs escaneados\\Formulario 352.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Formularios 6351 y 6361.pdf",
+      "path": "Docs escaneados\\Formularios 6351 y 6361.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Jesper S.A. - Declaratoria.pdf",
+      "path": "Docs escaneados\\Jesper S.A. - Declaratoria.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Jesper S.A. - Estatuto con publicaciones.pdf",
+      "path": "Docs escaneados\\Jesper S.A. - Estatuto con publicaciones.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Jesper S.A. - formulario A.pdf",
+      "path": "Docs escaneados\\Jesper S.A. - formulario A.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Jesper S.A. - Formulario B - 12.9.2017.pdf",
+      "path": "Docs escaneados\\Jesper S.A. - Formulario B - 12.9.2017.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Pasaporte bassi(1).jpg",
+      "path": "Docs escaneados\\Pasaporte bassi(1).jpg"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Pasaporte bassi.jpg",
+      "path": "Docs escaneados\\Pasaporte bassi.jpg"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Poder JESPER a IVAN GOLOUBINTSEFF - ilimitado.pdf",
+      "path": "Docs escaneados\\Poder JESPER a IVAN GOLOUBINTSEFF - ilimitado.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Poder JESPER a IVAN GOLOUBINTSEFF.pdf",
+      "path": "Docs escaneados\\Poder JESPER a IVAN GOLOUBINTSEFF.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Poder JESPER SA a CLAUDIO FERNANDEZ.pdf",
+      "path": "Docs escaneados\\Poder JESPER SA a CLAUDIO FERNANDEZ.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Poder JESPER SA a GONZALO MUÑOZ.pdf",
+      "path": "Docs escaneados\\Poder JESPER SA a GONZALO MUÑOZ.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Poder NEXLOG a RAMELA.pdf",
+      "path": "Docs escaneados\\Poder NEXLOG a RAMELA.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Psp Javier Bassi.pdf",
+      "path": "Docs escaneados\\Psp Javier Bassi.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "publicaciones refomra diario oficial.pdf",
+      "path": "Docs escaneados\\publicaciones refomra diario oficial.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Revocación total de Poderes Generales.pdf",
+      "path": "Docs escaneados\\Revocación total de Poderes Generales.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Solicitud_2264957_0. Pateric SA.pdf",
+      "path": "Docs escaneados\\Solicitud_2264957_0. Pateric SA.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Solicitud_2276808_0.Actos. PAteric SA.pdf",
+      "path": "Docs escaneados\\Solicitud_2276808_0.Actos. PAteric SA.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Transferencia de Acciones Jesper S.A..pdf",
+      "path": "Docs escaneados\\Transferencia de Acciones Jesper S.A..pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Publicacion HERALDO.pdf",
+      "path": "Reforma Estatuto\\Publicacion HERALDO.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Publicaciones en Diario Oficial.pdf",
+      "path": "Reforma Estatuto\\Publicaciones en Diario Oficial.pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "Reforma aprobada e inscripta..pdf",
+      "path": "Reforma Estatuto\\Reforma aprobada e inscripta..pdf"
+    },
+    {
+      "customer": "NEXLOG URUGUAY SA (NEXUS), antes JESPER SA",
+      "filename": "RUT y Formularios DGI.pdf",
+      "path": "Reforma Estatuto\\RUT y Formularios DGI.pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "carta NETKLA.doc",
+      "path": "carta NETKLA.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Cert Comercio apostillado.pdf",
+      "path": "Cert Comercio apostillado.pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Comunicacion apostillada.pdf",
+      "path": "Comunicacion apostillada.pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "CONTRATO DE SUMINISTRO DECODIFICADORES-2.doc",
+      "path": "CONTRATO DE SUMINISTRO DECODIFICADORES-2.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "CONTRATO DE SUMINISTRO DECODIFICADORES.doc",
+      "path": "CONTRATO DE SUMINISTRO DECODIFICADORES.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Declaratoria - NETKLA TRADING (2).doc",
+      "path": "Declaratoria - NETKLA TRADING (2).doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Declaratoria - NETKLA TRADING copia.doc",
+      "path": "Declaratoria - NETKLA TRADING copia.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Declaratoria - NETKLA TRADING.doc",
+      "path": "Declaratoria - NETKLA TRADING.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Declaratoria - NETKLA TRADING.pdf",
+      "path": "Declaratoria - NETKLA TRADING.pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Declaratoria NETKLA TRADING.pdf",
+      "path": "Declaratoria NETKLA TRADING.pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "NETKLA Autorizacion.pdf",
+      "path": "NETKLA Autorizacion.pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "NETKLA DGI.pdf",
+      "path": "NETKLA DGI.pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "NETKLA TRADING - Estatutos.pdf",
+      "path": "NETKLA TRADING - Estatutos.pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "NETKLA TRADING S.A. PODER GENERAL a VERONICA CHARLONE y CAROLINA BOMIO.doc",
+      "path": "NETKLA TRADING S.A. PODER GENERAL a VERONICA CHARLONE y CAROLINA BOMIO.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "NETKLA TRADING SA, CARTA PODER PARA BPS.doc",
+      "path": "NETKLA TRADING SA, CARTA PODER PARA BPS.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "NETKLA TRADING.doc",
+      "path": "NETKLA TRADING.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "NETKLA TRADING.pdf",
+      "path": "NETKLA TRADING.pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Poder general  Netkla Trading S.A..pdf",
+      "path": "Poder general  Netkla Trading S.A..pdf"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "PODER GENERAL - NETKLA TRADING SA a VERONICA CHARLONE y CAROLINA BOMIO. TESTIMONIO.doc",
+      "path": "PODER GENERAL - NETKLA TRADING SA a VERONICA CHARLONE y CAROLINA BOMIO. TESTIMONIO.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "PODER GENERAL - NETKLA TRADING SA a VERONICA CHARLONE y CAROLINA BOMIO.doc",
+      "path": "PODER GENERAL - NETKLA TRADING SA a VERONICA CHARLONE y CAROLINA BOMIO.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Representation Agreement - Netkla - Justek vf.doc",
+      "path": "Representation Agreement - Netkla - Justek vf.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "Representation Agreement - Netkla - Justek.doc",
+      "path": "Representation Agreement - Netkla - Justek.doc"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "declaracion-registro-participaciones-216541910018-20180525-Firmado.efs",
+      "path": "COMUNICACION AL BCU\\declaracion-registro-participaciones-216541910018-20180525-Firmado.efs"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "declaracion-registro-participaciones-216541910018-20180525.xml",
+      "path": "COMUNICACION AL BCU\\declaracion-registro-participaciones-216541910018-20180525.xml"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "declaracion-registro-participaciones-216541910018-20180525.zip",
+      "path": "COMUNICACION AL BCU\\declaracion-registro-participaciones-216541910018-20180525.zip"
+    },
+    {
+      "customer": "Netkla Trading",
+      "filename": "IDI - Información de Instituciones.pdf",
+      "path": "COMUNICACION AL BCU\\IDI - Información de Instituciones.pdf"
+    },
+    {
+      "customer": "Northflower",
+      "filename": "Com BCU NORTHFLOWER INC S.A..PDF",
+      "path": "Com BCU NORTHFLOWER INC S.A..PDF"
+    },
+    {
+      "customer": "Northflower",
+      "filename": "Comunicacion BCU NORTHFLOWER INC S.A. (2).PDF",
+      "path": "Comunicacion BCU NORTHFLOWER INC S.A. (2).PDF"
+    },
+    {
+      "customer": "Northflower",
+      "filename": "Declaratoria 2018.pdf",
+      "path": "Declaratoria 2018.pdf"
+    },
+    {
+      "customer": "Northflower",
+      "filename": "Estatuto Northflower S.A..pdf",
+      "path": "Estatuto Northflower S.A..pdf"
+    },
+    {
+      "customer": "Northflower",
+      "filename": "oentidadconsultaweb_1.pdf",
+      "path": "oentidadconsultaweb_1.pdf"
+    },
+    {
+      "customer": "Northflower",
+      "filename": "reporte.pdf",
+      "path": "reporte.pdf"
+    },
+    {
+      "customer": "Nubegris SA",
+      "filename": "Nubegris S.A., BCU, leyes 18930 y 19484.pdf",
+      "path": "Nubegris S.A., BCU, leyes 18930 y 19484.pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "Declaratoria Ley 17904.pdf",
+      "path": "Declaratoria Ley 17904.pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "Declaratoria Margarita (2).pdf",
+      "path": "Declaratoria Margarita (2).pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "Estatuto con Publicaciones.pdf",
+      "path": "Estatuto con Publicaciones.pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "Minuta BPS, correccion salvada por Esc..pdf",
+      "path": "Minuta BPS, correccion salvada por Esc..pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "Minuta BPS, correccion salvada por Esc.2.pdf",
+      "path": "Minuta BPS, correccion salvada por Esc.2.pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "Minuta notarial BPS, registro de obra.doc",
+      "path": "Minuta notarial BPS, registro de obra.doc"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "Piscus S.A. - Formulario B.pdf",
+      "path": "Piscus S.A. - Formulario B.pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "poder extrajero.pdf",
+      "path": "poder extrajero.pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "PODER GENERAL a Hugo Alfredo ANZORREGUY.pdf",
+      "path": "PODER GENERAL a Hugo Alfredo ANZORREGUY.pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "Poder para BPS y  otros. PISCUS SA.pdf",
+      "path": "Poder para BPS y  otros. PISCUS SA.pdf"
+    },
+    {
+      "customer": "PISCUS SA",
+      "filename": "Solicitud_2411270_0.Inmueble padron 518 de Pta.del Este.pdf",
+      "path": "Solicitud_2411270_0.Inmueble padron 518 de Pta.del Este.pdf"
+    },
+    {
+      "customer": "Palermotec",
+      "filename": "Constanciade comunicación BCU.pdf",
+      "path": "Constanciade comunicación BCU.pdf"
+    },
+    {
+      "customer": "Palermotec",
+      "filename": "Declaratoria Edunor S.A. 2.pdf",
+      "path": "Declaratoria Edunor S.A. 2.pdf"
+    },
+    {
+      "customer": "Palermotec",
+      "filename": "Estatuto con publicaciones PALERMOTEC.pdf",
+      "path": "Estatuto con publicaciones PALERMOTEC.pdf"
+    },
+    {
+      "customer": "Palermotec",
+      "filename": "Formulario B - Comunicación BCU [Constancia de comunicación BCU].pdf",
+      "path": "Formulario B - Comunicación BCU [Constancia de comunicación BCU].pdf"
+    },
+    {
+      "customer": "Palermotec",
+      "filename": "oentidadconsultaweb (1).pdf",
+      "path": "oentidadconsultaweb (1).pdf"
+    },
+    {
+      "customer": "Palermotec",
+      "filename": "reporte.pdf",
+      "path": "reporte.pdf"
+    },
+    {
+      "customer": "Palermotec",
+      "filename": "talones abitab joaquin olivera.pdf",
+      "path": "talones abitab joaquin olivera.pdf"
+    },
+    {
+      "customer": "Platintor",
+      "filename": "cert. Platintor.doc",
+      "path": "cert. Platintor.doc"
+    },
+    {
+      "customer": "Platintor",
+      "filename": "Declaratoria 17904 Platintor.pdf",
+      "path": "Declaratoria 17904 Platintor.pdf"
+    },
+    {
+      "customer": "Platintor",
+      "filename": "declaracion-registro-participaciones-216779840010-20180525 bis-Firmado.efs",
+      "path": "COMUNICACION BCU\\declaracion-registro-participaciones-216779840010-20180525 bis-Firmado.efs"
+    },
+    {
+      "customer": "Platintor",
+      "filename": "declaracion-registro-participaciones-216779840010-20180525 bis.xml",
+      "path": "COMUNICACION BCU\\declaracion-registro-participaciones-216779840010-20180525 bis.xml"
+    },
+    {
+      "customer": "Platintor",
+      "filename": "declaracion-registro-participaciones-216779840010-20180525 bis.zip",
+      "path": "COMUNICACION BCU\\declaracion-registro-participaciones-216779840010-20180525 bis.zip"
+    },
+    {
+      "customer": "Platintor",
+      "filename": "IDI - Información de Instituciones bis.pdf",
+      "path": "COMUNICACION BCU\\IDI - Información de Instituciones bis.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "27369.pdf",
+      "path": "27369.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Actas Asamblea y Directorio. cambio Directorio mayo 2018.pdf",
+      "path": "Actas Asamblea y Directorio. cambio Directorio mayo 2018.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "cert. SEA S.A. - BASE DE DATOS 2.doc",
+      "path": "cert. SEA S.A. - BASE DE DATOS 2.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "cert. SEA S.A. - BASE DE DATOS.doc",
+      "path": "cert. SEA S.A. - BASE DE DATOS.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Declaratoria 17904 SEA - vieja.pdf",
+      "path": "Declaratoria 17904 SEA - vieja.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Declaratoria 17904 SEA.pdf",
+      "path": "Declaratoria 17904 SEA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Estatutos SEA.pdf",
+      "path": "Estatutos SEA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "For6951 registro.pdf",
+      "path": "For6951 registro.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Notarial para Especial de BPS, renovacion.pdf",
+      "path": "Notarial para Especial de BPS, renovacion.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Poder General SEA a Eduardo Bomio.pdf",
+      "path": "Poder General SEA a Eduardo Bomio.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Poder General SEA a Gabriel Bomio.pdf",
+      "path": "Poder General SEA a Gabriel Bomio.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Poder Gral.Administracion, Disposicion y Afectacion a Veronica Charlone y Carolina bomio y otros. pimer testimonio.pdf",
+      "path": "Poder Gral.Administracion, Disposicion y Afectacion a Veronica Charlone y Carolina bomio y otros. pimer testimonio.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Poder Pleitos SEA.pdf",
+      "path": "Poder Pleitos SEA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Publicacion cambio acciones 18930 SEA.pdf",
+      "path": "Publicacion cambio acciones 18930 SEA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "reporte.pdf 6951 DGI SEA.pdf",
+      "path": "reporte.pdf 6951 DGI SEA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SEA S.A. - representacion 2.doc",
+      "path": "SEA S.A. - representacion 2.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SEA S.A. - representacion 3.doc",
+      "path": "SEA S.A. - representacion 3.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SEA S.A. - representacion.doc",
+      "path": "SEA S.A. - representacion.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SEA.pdf",
+      "path": "SEA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SISTEMAS ELECTRONICOS AVANZADOS. PODER GENERAL A Eduardo BOMIO.doc",
+      "path": "SISTEMAS ELECTRONICOS AVANZADOS. PODER GENERAL A Eduardo BOMIO.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SISTEMAS ELECTRONICOS AVANZADOS. PODER GENERAL A Eduardo y Gabriel BOMIO. borrador.doc",
+      "path": "SISTEMAS ELECTRONICOS AVANZADOS. PODER GENERAL A Eduardo y Gabriel BOMIO. borrador.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SISTEMAS ELECTRONICOS AVANZADOS. REVOCACION CARTA PODER.doc",
+      "path": "SISTEMAS ELECTRONICOS AVANZADOS. REVOCACION CARTA PODER.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SOA vigentes.pdf",
+      "path": "SOA vigentes.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Tarjeta RUT SEA.pdf",
+      "path": "Tarjeta RUT SEA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "declaracion-registro-participaciones-211889280019-20180601 (2)-Firmado.efs",
+      "path": "Comunicación BCU\\declaracion-registro-participaciones-211889280019-20180601 (2)-Firmado.efs"
+    },
+    {
+      "customer": "SEA",
+      "filename": "declaracion-registro-participaciones-211889280019-20180601 (2).xml",
+      "path": "Comunicación BCU\\declaracion-registro-participaciones-211889280019-20180601 (2).xml"
+    },
+    {
+      "customer": "SEA",
+      "filename": "declaracion-registro-participaciones-211889280019-20180601 (2).zip",
+      "path": "Comunicación BCU\\declaracion-registro-participaciones-211889280019-20180601 (2).zip"
+    },
+    {
+      "customer": "SEA",
+      "filename": "IDI - Información de Instituciones.pdf",
+      "path": "Comunicación BCU\\IDI - Información de Instituciones.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Cert. de Cobertura - SEA SA.pdf",
+      "path": "Leasings\\Cert. de Cobertura - SEA SA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "COMPRAVENTA CAMIONETA DFSK.docx",
+      "path": "Leasings\\COMPRAVENTA CAMIONETA DFSK.docx"
+    },
+    {
+      "customer": "SEA",
+      "filename": "COMPRAVENTA GWM WINGLE.docx",
+      "path": "Leasings\\COMPRAVENTA GWM WINGLE.docx"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Libreta DSFK 1.jpeg",
+      "path": "Leasings\\Libreta DSFK 1.jpeg"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Libreta DSFK 2.jpeg",
+      "path": "Leasings\\Libreta DSFK 2.jpeg"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Libreta Wingle 1.jpeg",
+      "path": "Leasings\\Libreta Wingle 1.jpeg"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Libreta wingle 2.jpeg",
+      "path": "Leasings\\Libreta wingle 2.jpeg"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Minuta_Automotor. Compraventa DFSK.pdf",
+      "path": "Leasings\\Minuta_Automotor. Compraventa DFSK.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Minuta_Automotor. Compraventa GWM WINGLE.pdf",
+      "path": "Leasings\\Minuta_Automotor. Compraventa GWM WINGLE.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Minuta_Automotor. Leasing DFSK.pdf",
+      "path": "Leasings\\Minuta_Automotor. Leasing DFSK.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Minuta_Automotor. Leasing GWM WINGLE.pdf",
+      "path": "Leasings\\Minuta_Automotor. Leasing GWM WINGLE.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SOA SBI - DFSK.pdf",
+      "path": "Leasings\\SOA SBI - DFSK.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SOA SBI - GWM.pdf",
+      "path": "Leasings\\SOA SBI - GWM.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "CONTROL DEL BANCO 2018.docx",
+      "path": "Leasings\\Scotiabank\\CONTROL DEL BANCO 2018.docx"
+    },
+    {
+      "customer": "SEA",
+      "filename": "DECLARATORIA 21 DE SETIEMBRE DE 2018.pdf",
+      "path": "Leasings\\Scotiabank\\DECLARATORIA 21 DE SETIEMBRE DE 2018.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Factura 1172.pdf",
+      "path": "Leasings\\Scotiabank\\Factura 1172.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "INSTRUCTIVO LEASING.doc",
+      "path": "Leasings\\Scotiabank\\INSTRUCTIVO LEASING.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Poder General NBC S.A. 13 de jullio 2011.pdf",
+      "path": "Leasings\\Scotiabank\\Poder General NBC S.A. 13 de jullio 2011.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "ANCLAR SA. Contrato de concesion.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\ANCLAR SA. Contrato de concesion.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "ANCLAR SA. Notarial.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\ANCLAR SA. Notarial.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "ANCLAR SA.Declaratoria.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\ANCLAR SA.Declaratoria.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "compraventa vehiculo.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\compraventa vehiculo.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "COMPRAVENTA.docx",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\COMPRAVENTA.docx"
+    },
+    {
+      "customer": "SEA",
+      "filename": "contrato de credito de uso.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\contrato de credito de uso.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "DECLARATORIA 21 DE SETIEMBRE DE 2018.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\DECLARATORIA 21 DE SETIEMBRE DE 2018.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "IMG_20180517_0001 - copia.png",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\IMG_20180517_0001 - copia.png"
+    },
+    {
+      "customer": "SEA",
+      "filename": "INSTRUCTIVO LEASING.doc",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\INSTRUCTIVO LEASING.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "libreta fiorino SEA1.jpeg",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\libreta fiorino SEA1.jpeg"
+    },
+    {
+      "customer": "SEA",
+      "filename": "libreta fiorino SEA2.jpeg",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\libreta fiorino SEA2.jpeg"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Minuta_Automotor.Leasing.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Minuta_Automotor.Leasing.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Minuta_Automotor.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Minuta_Automotor.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Poder General NBC S.A. 13 de jullio 2011.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Poder General NBC S.A. 13 de jullio 2011.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Proforma SEA.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\Proforma SEA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SCOTIABANK. Ampliacion Poder año 2019.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\SCOTIABANK. Ampliacion Poder año 2019.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SCOTIABANK. AMPLIACION PODER. 3 de noviembre del 2015.df.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\SCOTIABANK. AMPLIACION PODER. 3 de noviembre del 2015.df.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SOA.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\SOA.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SUCIVE.pdf",
+      "path": "Leasings\\SCOTIABANK.  FIAT FIORINO\\SUCIVE.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "BCU Suril 18930.pdf",
+      "path": "Leasings\\SURIL\\BCU Suril 18930.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "BPS SURIL.pdf",
+      "path": "Leasings\\SURIL\\BPS SURIL.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "C.I. SEBASTIAN.doc",
+      "path": "Leasings\\SURIL\\C.I. SEBASTIAN.doc"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Cedula CG.pdf",
+      "path": "Leasings\\SURIL\\Cedula CG.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "Declaratoria Suril.pdf",
+      "path": "Leasings\\SURIL\\Declaratoria Suril.pdf"
+    },
+    {
+      "customer": "SEA",
+      "filename": "SURIL BCU.pdf",
+      "path": "Leasings\\SURIL\\SURIL BCU.pdf"
+    },
+    {
+      "customer": "Saterix",
+      "filename": "SATERIX. DECLARATORIA LEY 17904.doc",
+      "path": "SATERIX. DECLARATORIA LEY 17904.doc"
+    },
+    {
+      "customer": "Saterix",
+      "filename": "ACTAS DE ASAMBLEA Y DIRECTORIO.pdf",
+      "path": "docscan\\ACTAS DE ASAMBLEA Y DIRECTORIO.pdf"
+    },
+    {
+      "customer": "Saterix",
+      "filename": "BPS.pdf",
+      "path": "docscan\\BPS.pdf"
+    },
+    {
+      "customer": "Saterix",
+      "filename": "Declaratoria Saterix.pdf",
+      "path": "docscan\\Declaratoria Saterix.pdf"
+    },
+    {
+      "customer": "Saterix",
+      "filename": "DGI.pdf",
+      "path": "docscan\\DGI.pdf"
+    },
+    {
+      "customer": "Saterix",
+      "filename": "Estatuto Saterix S.A..pdf",
+      "path": "docscan\\Estatuto Saterix S.A..pdf"
+    },
+    {
+      "customer": "Saterix",
+      "filename": "Publicaciones.pdf",
+      "path": "docscan\\Publicaciones.pdf"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones - SISA 2.doc",
+      "path": "cert. service e instalaciones - SISA 2.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones - SISA.doc",
+      "path": "cert. service e instalaciones - SISA.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones SISA (MTOP) 2.doc",
+      "path": "cert. service e instalaciones SISA (MTOP) 2.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones SISA (MTOP)(completo).doc",
+      "path": "cert. service e instalaciones SISA (MTOP)(completo).doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones SISA (MTOP).doc",
+      "path": "cert. service e instalaciones SISA (MTOP).doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones SISA 2.doc",
+      "path": "cert. service e instalaciones SISA 2.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones SISA completo con objeto.doc",
+      "path": "cert. service e instalaciones SISA completo con objeto.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones SISA completo IMM.doc",
+      "path": "cert. service e instalaciones SISA completo IMM.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones SISA completo MEF.doc",
+      "path": "cert. service e instalaciones SISA completo MEF.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones SISA completo.doc",
+      "path": "cert. service e instalaciones SISA completo.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "cert. service e instalaciones SISA.doc",
+      "path": "cert. service e instalaciones SISA.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "Poder SEISA a Carolina.pdf",
+      "path": "Poder SEISA a Carolina.pdf"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "SERVICE E INSTALACIONES SA, personeria y representación.doc",
+      "path": "SERVICE E INSTALACIONES SA, personeria y representación.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "declaracion-registro-participaciones-212562710015-20180525 bis-Firmado.efs",
+      "path": "COMUNICACION BCU\\declaracion-registro-participaciones-212562710015-20180525 bis-Firmado.efs"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "declaracion-registro-participaciones-212562710015-20180525 bis.xml",
+      "path": "COMUNICACION BCU\\declaracion-registro-participaciones-212562710015-20180525 bis.xml"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "declaracion-registro-participaciones-212562710015-20180525-Firmado.efs",
+      "path": "COMUNICACION BCU\\declaracion-registro-participaciones-212562710015-20180525-Firmado.efs"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "declaracion-registro-participaciones-212562710015-20180525.xml",
+      "path": "COMUNICACION BCU\\declaracion-registro-participaciones-212562710015-20180525.xml"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "declaracion-registro-participaciones-212562710015-20180525.zip",
+      "path": "COMUNICACION BCU\\declaracion-registro-participaciones-212562710015-20180525.zip"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "FORMULARIO B.doc",
+      "path": "COMUNICACION BCU\\FORMULARIO B.doc"
+    },
+    {
+      "customer": "Service e Instalaciones (SEISA)",
+      "filename": "IDI - Información de Instituciones.pdf",
+      "path": "COMUNICACION BCU\\IDI - Información de Instituciones.pdf"
+    },
+    {
+      "customer": "Treegarden",
+      "filename": "2015-05-07 (10).pdf",
+      "path": "2015-05-07 (10).pdf"
+    },
+    {
+      "customer": "Treegarden",
+      "filename": "2015-05-07 (9).pdf",
+      "path": "2015-05-07 (9).pdf"
+    },
+    {
+      "customer": "Treegarden",
+      "filename": "Acta Directorio.pdf",
+      "path": "Acta Directorio.pdf"
+    },
+    {
+      "customer": "Treegarden",
+      "filename": "CCF08102015_00001.pdf",
+      "path": "CCF08102015_00001.pdf"
+    },
+    {
+      "customer": "Treegarden",
+      "filename": "Copia de treegarden.pdf",
+      "path": "Copia de treegarden.pdf"
+    },
+    {
+      "customer": "Treegarden",
+      "filename": "Estatutos TREEGARDEN completos.pdf",
+      "path": "Estatutos TREEGARDEN completos.pdf"
+    },
+    {
+      "customer": "Treegarden",
+      "filename": "TREE GARDEN S.A., personeria y representación, Jorge MARQUEZ.doc",
+      "path": "TREE GARDEN S.A., personeria y representación, Jorge MARQUEZ.doc"
+    },
+    {
+      "customer": "Treegarden",
+      "filename": "TREEGARDEN.pdf",
+      "path": "TREEGARDEN.pdf"
+    }
+  ]
+}

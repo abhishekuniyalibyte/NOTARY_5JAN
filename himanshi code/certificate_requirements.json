@@ -1,0 +1,94 @@
+{
+  "firma": {
+    "legal_basis": ["Art.248(b)", "Art.250", "Art.255"],
+    "required_documents": [
+      "Documento privado que se firma",
+      "Cédula de identidad vigente del firmante",
+      "Poder (si es firma por poder)",
+      "Prueba de representación (si corresponde)"
+    ],
+    "optional_documents": [
+      "Impresión dígito pulgar",
+      "Copia simple del documento"
+    ]
+  },
+
+  "personeria": {
+    "legal_basis": ["Art.248(a)", "Art.249", "Art.255"],
+    "required_documents": [
+      "Estatutos sociales",
+      "Última acta de directorio",
+      "Certificado de vigencia",
+      "Poderes vigentes",
+      "Comprobante BPS",
+      "Constancia DGI"
+    ]
+  },
+
+  "representacion": {
+    "legal_basis": ["Art.248(a)", "Art.249", "Art.255"],
+    "required_documents": [
+      "Poder vigente",
+      "Documento original que acredita representación",
+      "ID del representante",
+      "Registro de accionistas / actas según corresponda"
+    ]
+  },
+
+  "firma_personeria": {
+    "legal_basis": ["Art.248(a)", "Art.248(b)", "Art.249", "Art.250", "Art.255"],
+    "required_documents": [
+      "ID vigente",
+      "Documento firmado",
+      "Estatutos",
+      "Actas",
+      "Poderes",
+      "BPS",
+      "DGI"
+    ]
+  },
+
+  "firma_firmas": {
+    "legal_basis": ["Art.248(b)", "Art.250", "Art.255"],
+    "required_documents": [
+      "Documento privado firmado por múltiples partes",
+      "ID vigente de todos los firmantes"
+    ]
+  },
+
+  "bps": {
+    "legal_basis": ["Art.248(a)", "Art.249", "Art.255"],
+    "required_documents": [
+      "Constancia BPS vigente",
+      "ID del titular",
+      "Documentos de empresa (si aplica)"
+    ]
+  },
+
+  "dgi": {
+    "legal_basis": ["Art.248(a)", "Art.249", "Art.255"],
+    "required_documents": [
+      "Constancia DGI vigente",
+      "ID del titular",
+      "Documentos de empresa (si corresponde)"
+    ]
+  },
+
+  "comercio": {
+    "legal_basis": ["Art.248(a)", "Art.249", "Art.255"],
+    "required_documents": [
+      "Comprobante de Registro de Comercio",
+      "Actas",
+      "Estatutos"
+    ]
+  },
+
+  "zona_franca": {
+    "legal_basis": ["Art.248(a)", "Art.249", "Art.255"],
+    "required_documents": [
+      "Documentación exigida por ZF",
+      "Poderes",
+      "Personería"
+    ]
+  }
+}

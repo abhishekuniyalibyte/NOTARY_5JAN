@@ -1,0 +1,45 @@
+# Milestone 1: Core dependencies
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Milestone 2: Google Drive integration
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+google-api-python-client>=2.100.0
+
+# Milestone 2: File type detection (optional but recommended)
+python-magic>=0.4.27
+# Note: On Linux, also install: sudo apt-get install libmagic1
+# On macOS: brew install libmagic
+# On Windows: pip install python-magic-bin
+
+# Milestone 3: PDF text extraction and LLM data extraction
+pdfplumber>=0.10.0
+groq>=0.4.0
+python-dotenv
+
+# OCR for scanned/image-based PDFs
+pdf2image>=1.16.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+# Note: Also requires system package: sudo apt-get install tesseract-ocr tesseract-ocr-spa poppler-utils
+
+# Milestone 4: Field normalization (uses only Python stdlib - no additional deps needed)
+# All functionality uses: re, datetime, json (built-in)
+
+# FastAPI
+fastapi
+uvicorn
+python-multipart
+
+# Progress bar for parallel processing
+tqdm>=4.66.0
+
+# Document format support (.doc, .docx)
+python-docx>=1.0.0
+# For .doc files (older Word format)
+antiword  # Install via: sudo apt-get install antiword
+
+# do this for chatbot.py. issue was it needed spanish lanaguge in tesseact
+# sudo apt-get update && sudo apt-get install -y tesseract-ocr-spa
