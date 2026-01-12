@@ -1,6 +1,21 @@
 """
-ccs3.py - create_certificate_summary.py
+create_certificate_summary3.py - VERSION 3.1 (ENHANCED)
 ------------------------------------------------------------
+VERSION 3.1 CRITICAL FIX:
+• Prevents "COMPLETO" and "CONTROL" certificates from being misclassified as simple "firma"
+• These complex certificates contain multiple components (firma + personeria + representacion)
+• Should be classified as "firma_personeria_representacion_representacion", not "firma"
+• This fixes the DGI purpose issue in firma section
+
+IMPROVEMENTS OVER VERSION 2:
+• Stronger authority document detection (DGI, BPS, BCU separation)
+• Better handling of notarially-certified authority documents
+• Stricter classification to match client expectations
+• COMPLETO/CONTROL cert detection - moves complex certs to proper categories
+• Fixed output filename to certificate_summary3.json
+• Enhanced logging for better debugging
+
+FEATURES:
 • Uses LLM (meta-llama/llama-4-maverick-17b-128e-instruct) to analyze document CONTENT
 • Correctly identifies certificate types based on content, not filename
 • Extracts accurate PURPOSE information (BSE, ABITAB, Zona Franca, etc.)
@@ -42,6 +57,7 @@ with open("certificate_types.json", "r", encoding="utf-8") as f:
 # ---------------------------------------------------------
 
 # VERY SPECIFIC authority keywords (must be actual authority documents)
+# ENHANCED: More comprehensive patterns to catch DGI, BPS, BCU docs
 AUTHORITY_KEYWORDS = [
     "constancia anual dgi",
     "constancia dgi",
@@ -50,7 +66,28 @@ AUTHORITY_KEYWORDS = [
     "formulario 0352",
     "formulario b y certificacion",
     "acuse bcu",
-    "constancia certif.comun bps"
+    "constancia certif.comun bps",
+    # Additional DGI patterns
+    "certificado dgi",
+    "certificado netkla trading - dgi",
+    "certif.anual. dgi",
+    # Additional BPS patterns
+    "certificado bps",
+    "certificado común",
+    # BCU patterns
+    "certificado bcu",
+    "certificado de recepcion. bcu",
+    "comunicacion bcu"
+]
+
+# Stronger patterns for documents that should NEVER be notarial
+PURE_AUTHORITY_PATTERNS = [
+    "certificado común bps",
+    "certificado comun bps",
+    "constancia dgi",
+    "certificado dgi",
+    "acuse bcu",
+    "formulario 0352"
 ]
 
 # Keywords that STRONGLY indicate NOTARIAL certificates
@@ -271,29 +308,39 @@ def process_single_file(task_item):
         combined_text = text_lower + " " + filename_lower
 
         # ---------------------------------------------------------
-        # FIX 1: DEFAULT TO NOTARIAL (since file is in certificates list)
+        # ENHANCED AUTHORITY DETECTION (Version 3 Improvement)
         # ---------------------------------------------------------
-        # CRITICAL ASSUMPTION: If a file is in the "certificates" list in customers_index.json,
-        # it's a notarial certificate UNLESS we have VERY specific evidence it's an authority doc
+        # Two-tier detection: pure authority docs vs notarially certified authority docs
 
         is_authority = False
+        is_pure_authority = False  # NEW: for documents that should NEVER be notarial
 
-        # Only mark as authority if we find VERY specific authority document phrases
-        for kw in AUTHORITY_KEYWORDS:
-            if kw in combined_text:
+        # Check for PURE authority documents (never notarial, even if certified)
+        for pattern in PURE_AUTHORITY_PATTERNS:
+            if pattern in combined_text:
+                is_pure_authority = True
                 is_authority = True
                 break
 
-        # Check for notarial signatures (overrides everything)
+        # Check for general authority keywords if not already marked as pure
+        if not is_pure_authority:
+            for kw in AUTHORITY_KEYWORDS:
+                if kw in combined_text:
+                    is_authority = True
+                    break
+
+        # Check for notarial signatures (can override general authority, but not pure authority)
         has_notarial_signature = False
         for kw in NOTARIAL_KEYWORDS:
             if kw in combined_text:
                 has_notarial_signature = True
-                is_authority = False  # Notarial signature overrides authority detection
+                # Only override if NOT pure authority
+                if not is_pure_authority:
+                    is_authority = False
                 break
 
-        # ERROR files are ALWAYS notarial certificates
-        if "error" in filename_lower:
+        # ERROR files are ALWAYS notarial certificates (unless pure authority)
+        if "error" in filename_lower and not is_pure_authority:
             is_authority = False
             has_notarial_signature = True
 
@@ -307,24 +354,31 @@ def process_single_file(task_item):
         purpose = analysis.get("purpose", "unknown").lower()
 
         # ---------------------------------------------------------
-        # FIX 2: FINAL NOTARIAL DECISION (Improved Logic)
+        # ENHANCED FINAL NOTARIAL DECISION (Version 3 Improvement)
         # ---------------------------------------------------------
-        # Start with LLM's assessment and keyword evidence
-        is_notarial = analysis.get("is_notarial", False) or has_notarial_signature
+        # Priority hierarchy:
+        # 1. Pure authority docs → NEVER notarial (even if notary signature present)
+        # 2. ERROR files → ALWAYS notarial (unless pure authority)
+        # 3. Notarial signature present → Notarial (unless pure authority)
+        # 4. Authority keywords + no signature → Not notarial
+        # 5. Default to LLM assessment
 
-        # Authority documents take precedence if we have strong evidence
-        # BUT notarial signatures always override (notary can certify authority docs)
-        if is_authority and not has_notarial_signature:
+        # STRONGEST RULE: Pure authority documents are NEVER notarial
+        if is_pure_authority:
             is_notarial = False
-
-        # ERROR files are ALWAYS notarial (final safety check)
-        if "error" in filename_lower:
+        # ERROR files are ALWAYS notarial (unless caught by pure authority above)
+        elif "error" in filename_lower:
             is_notarial = True
-
-        # Additional check: If file is ONLY an authority doc (no notarial elements), mark as authority
-        # This catches cases like "Certificado comun BPS.pdf" which shouldn't be notarial
-        if not has_notarial_signature and is_authority:
+        # If has notarial signature but is general authority, still mark as notarial
+        # (these are notarially certified authority docs - keep them)
+        elif has_notarial_signature:
+            is_notarial = True
+        # Authority docs without notarial signature → not notarial
+        elif is_authority and not has_notarial_signature:
             is_notarial = False
+        # Default to LLM assessment
+        else:
+            is_notarial = analysis.get("is_notarial", False)
 
         # ---------------------------------------------------------
         # FIX 3: HARD PURPOSE INFERENCE (check content + filename)
@@ -346,61 +400,102 @@ def process_single_file(task_item):
             purpose = "other"
 
         # ---------------------------------------------------------
-        # FIX 4: SMART CERT TYPE INFERENCE (check content + filename)
+        # ENHANCED CERT TYPE INFERENCE (Version 3.1 - CRITICAL FIX)
         # ---------------------------------------------------------
+        # KEY INSIGHT: "COMPLETO" and "CONTROL" certificates contain MULTIPLE
+        # components and should NOT be classified as simple "firma"
+
+        # Check for COMPLETO/CONTROL keywords that indicate complex certificates
+        is_complete_cert = (
+            "completo" in combined_text or
+            "control completo" in combined_text or
+            "control sa" in combined_text or
+            "control sociedad" in combined_text
+        )
+
         # Detect individual components from combined text
         detected_components = []
         has_firma = "firma" in combined_text or "firmas" in combined_text
         has_personeria = "personería" in combined_text or "personeria" in combined_text
         has_representacion = "representación" in combined_text or "representacion" in combined_text
 
-        # Build components list in correct order
-        if has_firma:
-            detected_components.append("firma")
-            if "firmas" in combined_text and not "firma" in combined_text:
-                detected_components = ["firma_firmas"]
+        # CRITICAL: If it's a COMPLETO cert with firma, it's probably firma_personeria_representacion
+        if is_complete_cert and has_firma:
+            # Force classification to complex type
+            if has_personeria and has_representacion:
+                cert_type = "firma_personeria_representacion_representacion"
+            elif has_personeria:
+                cert_type = "firma_personeria"
+            elif has_representacion:
+                cert_type = "firma_representacion_representacion"
+            else:
+                # Still complex even without explicit keywords
+                cert_type = "firma_personeria_representacion_representacion"
+        else:
+            # Standard detection for non-COMPLETO certificates
+            # Build components list in correct order
+            if has_firma:
+                detected_components.append("firma")
+                if "firmas" in combined_text and not "firma" in combined_text:
+                    detected_components = ["firma_firmas"]
 
-        if has_personeria:
-            if not detected_components:
-                detected_components.append("personeria")
-            elif detected_components[0] == "firma":
-                detected_components.append("personeria")
+            if has_personeria:
+                if not detected_components:
+                    detected_components.append("personeria")
+                elif detected_components[0] == "firma":
+                    detected_components.append("personeria")
 
-        if has_representacion:
-            if not detected_components:
-                detected_components.append("representacion")
-            elif "firma" in detected_components or "personeria" in detected_components:
-                detected_components.append("representacion")
-                # For representacion, often appears twice in the type name
-                detected_components.append("representacion")
+            if has_representacion:
+                if not detected_components:
+                    detected_components.append("representacion")
+                elif "firma" in detected_components or "personeria" in detected_components:
+                    detected_components.append("representacion")
+                    # For representacion, often appears twice in the type name
+                    detected_components.append("representacion")
 
-        # Build composite type key and try to match with certificate_types
-        if detected_components:
-            # Try various combinations to match certificate_types.json keys
-            combos_to_try = [
-                "_".join(detected_components),
-                "_".join(detected_components[:-1]) if len(detected_components) > 1 else detected_components[0],
-                detected_components[0] if len(detected_components) > 0 else None
-            ]
+            # Build composite type key and try to match with certificate_types
+            if detected_components:
+                # Try various combinations to match certificate_types.json keys
+                combos_to_try = [
+                    "_".join(detected_components),
+                    "_".join(detected_components[:-1]) if len(detected_components) > 1 else detected_components[0],
+                    detected_components[0] if len(detected_components) > 0 else None
+                ]
 
-            for combo in combos_to_try:
-                if combo and combo in cert_types:
-                    cert_type = combo
-                    break
+                for combo in combos_to_try:
+                    if combo and combo in cert_types:
+                        cert_type = combo
+                        break
 
         # ---------------------------------------------------------
-        # FINAL ROUTING
+        # FINAL ROUTING (Version 3 Enhancement)
         # ---------------------------------------------------------
         if not is_notarial or cert_type == "authority":
+            # Determine specific authority type for statistics
+            authority_type = 'authority_document'
+            if is_pure_authority:
+                authority_type = 'pure_authority_document'
+
+            # Detect which authority for better purpose tracking
+            detected_authority_purpose = purpose
+            if detected_authority_purpose == 'unknown':
+                if 'dgi' in combined_text:
+                    detected_authority_purpose = 'dgi'
+                elif 'bps' in combined_text:
+                    detected_authority_purpose = 'bps'
+                elif 'bcu' in combined_text:
+                    detected_authority_purpose = 'bcu'
+
             return {
                 'type': '__AUTHORITY_DOC__',
                 'customer': customer,
                 'filename': cert_info['filename'],
                 'path': cert_info['relative_path'],
                 'error_flag': cert_info.get('error_flag', False),
-                'purpose': 'unknown',
-                'reason': 'authority_document',
-                'extraction_time': extraction_time
+                'purpose': detected_authority_purpose,
+                'reason': authority_type,
+                'extraction_time': extraction_time,
+                'is_pure_authority': is_pure_authority  # NEW: for tracking
             }
 
         if cert_type not in cert_types:
@@ -414,7 +509,8 @@ def process_single_file(task_item):
             'error_flag': cert_info.get('error_flag', False),
             'purpose': purpose,
             'extraction_time': extraction_time,
-            'total_time': time.time() - start_time
+            'total_time': time.time() - start_time,
+            'is_complete_cert': is_complete_cert  # NEW v3.1: for tracking COMPLETO certs
         }
 
     except Exception as e:
@@ -436,19 +532,34 @@ if __name__ == '__main__':
     final_certificate_mapping = {k: [] for k in cert_types.keys()}
     non_certificate_docs = []
 
-    # Statistics tracking
+    # Enhanced statistics tracking (Version 3.1)
     stats = {
         'file_not_found': 0,
         'authority_detected': 0,
+        'pure_authority_detected': 0,  # NEW: tracks pure authority docs
         'notarial_confirmed': 0,
         'processing_errors': 0,
-        'total_processed': 0
+        'total_processed': 0,
+        'dgi_removed_from_notarial': 0,  # NEW: tracks DGI docs removed
+        'bps_removed_from_notarial': 0,  # NEW: tracks BPS docs removed
+        'bcu_removed_from_notarial': 0,  # NEW: tracks BCU docs removed
+        'completo_certs_reclassified': 0  # NEW v3.1: COMPLETO certs moved from firma to complex types
     }
 
     CUSTOMER_DATA_PATH = "Notaria"
 
     print("\n" + "=" * 70)
-    print("Starting Content-Based Certificate Classification (ccs3.py)")
+    print("Certificate Classification - VERSION 3.1 (CRITICAL FIX)")
+    print("=" * 70)
+    print("KEY FIX:")
+    print("• COMPLETO/CONTROL certificates moved from 'firma' to complex types")
+    print("• This fixes DGI appearing in firma section (client's main issue)")
+    print("=" * 70)
+    print("OTHER ENHANCEMENTS:")
+    print("• Stronger authority document detection (DGI/BPS/BCU)")
+    print("• Pure authority docs excluded from notarial certificates")
+    print("• Better matches client requirements")
+    print("=" * 70)
     print(f"Using model: {MODEL_NAME}")
     print(f"Using {NUM_WORKERS} parallel workers")
     print("=" * 70 + "\n")
@@ -508,6 +619,17 @@ if __name__ == '__main__':
             reason = result.get('reason', 'authority_document')
             if reason == 'file_not_found':
                 stats['file_not_found'] += 1
+            elif reason == 'pure_authority_document':
+                stats['pure_authority_detected'] += 1
+                stats['authority_detected'] += 1
+                # Track which authority type was removed
+                purpose = result.get('purpose', 'unknown')
+                if purpose == 'dgi':
+                    stats['dgi_removed_from_notarial'] += 1
+                elif purpose == 'bps':
+                    stats['bps_removed_from_notarial'] += 1
+                elif purpose == 'bcu':
+                    stats['bcu_removed_from_notarial'] += 1
             elif reason == 'authority_document':
                 stats['authority_detected'] += 1
 
@@ -521,6 +643,11 @@ if __name__ == '__main__':
             })
         else:
             stats['notarial_confirmed'] += 1
+
+            # Track COMPLETO certificates reclassified (v3.1)
+            if result.get('is_complete_cert', False) and result_type != 'firma':
+                stats['completo_certs_reclassified'] += 1
+
             final_certificate_mapping[result_type].append({
                 "customer": result['customer'],
                 "filename": result['filename'],
@@ -607,7 +734,7 @@ if __name__ == '__main__':
     }
 
     # Save result
-    output_file = "certificate_summary2a.json"
+    output_file = "certificate_summary3.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
@@ -617,11 +744,18 @@ if __name__ == '__main__':
 
     # Print processing statistics
     print("\n" + "=" * 70)
-    print("PROCESSING STATISTICS")
+    print("PROCESSING STATISTICS (VERSION 3.1 - CRITICAL FIX)")
     print("=" * 70)
     print(f"Total files processed:      {stats['total_processed']}")
     print(f"Notarial certificates:      {stats['notarial_confirmed']}")
-    print(f"Authority documents:        {stats['authority_detected']}")
+    print(f"\n🔧 V3.1 CRITICAL FIX:")
+    print(f"  COMPLETO certs moved:      {stats['completo_certs_reclassified']}")
+    print(f"  (moved from 'firma' to complex types like firma_personeria_representacion)")
+    print(f"\nAuthority documents:        {stats['authority_detected']}")
+    print(f"  Pure authority (removed):  {stats['pure_authority_detected']}")
+    print(f"    - DGI removed:           {stats['dgi_removed_from_notarial']}")
+    print(f"    - BPS removed:           {stats['bps_removed_from_notarial']}")
+    print(f"    - BCU removed:           {stats['bcu_removed_from_notarial']}")
     print(f"Files not found:            {stats['file_not_found']}")
     print(f"Processing errors:          {stats['processing_errors']}")
 
